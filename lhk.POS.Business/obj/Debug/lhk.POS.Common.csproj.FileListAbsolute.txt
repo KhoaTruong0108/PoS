@@ -1,0 +1,32 @@
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Common.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Common.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\EntityFramework.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Data.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\log4net.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Core.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Data.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\EntityFramework.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\obj\Debug\lhk.POS.Common.csprojResolveAssemblyReference.cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\obj\Debug\lhk.POS.Common.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Business\obj\Debug\lhk.POS.Common.pdb
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Common.dll
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Common.pdb
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\EntityFramework.dll
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Data.dll
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\log4net.dll
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\ExistingDatabaseConverter.dll
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\AutoMapper.dll
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\lhk.POS.Data.pdb
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\EntityFramework.xml
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\ExistingDatabaseConverter.pdb
+D:\PROJECT\pos-system\lhk.POS.Business\bin\Debug\AutoMapper.xml
+D:\PROJECT\pos-system\lhk.POS.Business\obj\Debug\lhk.POS.Common.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\lhk.POS.Business\obj\Debug\lhk.POS.Common.dll
+D:\PROJECT\pos-system\lhk.POS.Business\obj\Debug\lhk.POS.Common.pdb

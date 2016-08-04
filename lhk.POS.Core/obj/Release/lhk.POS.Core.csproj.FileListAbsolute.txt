@@ -1,0 +1,10 @@
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Release\lhk.POS.Core.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Release\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Release\EntityFramework.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Release\EntityFramework.SqlServer.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Release\log4net.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Release\SpreadsheetGear.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Release\EntityFramework.xml
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Release\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\lhk.POS.Core\obj\Release\lhk.POS.Core.dll
+D:\PROJECT\pos-system\lhk.POS.Core\obj\Release\lhk.POS.Core.pdb

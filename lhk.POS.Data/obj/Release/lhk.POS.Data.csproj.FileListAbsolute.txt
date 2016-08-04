@@ -1,0 +1,17 @@
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\lhk.POS.Data.dll.config
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\lhk.POS.Data.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\lhk.POS.Data.pdb
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\EntityFramework.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\EntityFramework.SqlServer.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\ExistingDatabaseConverter.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\lhk.POS.Core.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\AutoMapper.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\log4net.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\ExistingDatabaseConverter.pdb
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\EntityFramework.xml
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Release\AutoMapper.xml
+D:\PROJECT\pos-system\lhk.POS.Data\obj\Release\lhk.POS.Data.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\lhk.POS.Data\obj\Release\lhk.POS.Data.dll
+D:\PROJECT\pos-system\lhk.POS.Data\obj\Release\lhk.POS.Data.pdb

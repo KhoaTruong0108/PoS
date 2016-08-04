@@ -1,0 +1,31 @@
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\bin\Debug\lhk.POS.Data.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\bin\Debug\lhk.POS.Data.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\bin\Debug\EntityFramework.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\bin\Debug\lhk.POS.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\bin\Debug\log4net.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\bin\Debug\lhk.POS.Core.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\bin\Debug\EntityFramework.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\obj\Debug\lhk.POS.Data.csprojResolveAssemblyReference.cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\obj\Debug\lhk.POS.Data.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Data\obj\Debug\lhk.POS.Data.pdb
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\lhk.POS.Data.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\lhk.POS.Data.pdb
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\EntityFramework.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\ExistingDatabaseConverter.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\AutoMapper.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\log4net.dll
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\ExistingDatabaseConverter.pdb
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\EntityFramework.xml
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\AutoMapper.xml
+D:\PROJECT\pos-system\lhk.POS.Data\obj\Debug\lhk.POS.Data.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\lhk.POS.Data\obj\Debug\lhk.POS.Data.dll
+D:\PROJECT\pos-system\lhk.POS.Data\obj\Debug\lhk.POS.Data.pdb
+D:\PROJECT\pos-system\lhk.POS.Data\bin\Debug\lhk.POS.Data.dll.config
+D:\PROJECT\pos-system\lhk.POS.Data\obj\Debug\lhk.POS.Data.Migrations.SyncWithOldDatabase.resources
+D:\PROJECT\pos-system\lhk.POS.Data\obj\Debug\lhk.POS.Data.csproj.GenerateResource.Cache

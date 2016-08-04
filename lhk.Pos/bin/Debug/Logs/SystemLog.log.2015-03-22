@@ -1,0 +1,9 @@
+2015-03-22 17:19:03,514 [INFO] LoginPresenter.cs: Begin validating user.
+2015-03-22 17:19:16,330 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-03-22 17:19:16,332 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-03-22 17:19:16,332 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-03-22 17:19:20,764 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-03-22 17:19:20,846 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 17:19:20,853 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-03-22 17:19:20,857 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 17:19:24,142 [DEBUG] HandleChooseProduct

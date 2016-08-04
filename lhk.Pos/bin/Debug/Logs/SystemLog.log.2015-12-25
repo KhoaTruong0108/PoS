@@ -1,0 +1,91 @@
+2015-12-25 14:42:10,309 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 14:42:12,876 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 14:42:12,892 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-25 14:42:12,892 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-25 14:42:32,058 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 14:42:32,058 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 14:42:32,058 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 14:42:32,058 [INFO] LoginPresenter.cs: Finish validating user: NhanVien
+2015-12-25 14:42:34,512 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:34,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:42:34,599 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:34,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:42:39,154 [DEBUG] HandleChooseProduct
+2015-12-25 14:42:46,887 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:46,903 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:42:46,903 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:46,903 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:42:48,180 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 14:42:48,194 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 14:42:49,495 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 112
+2015-12-25 14:42:51,751 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:51,767 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:42:51,768 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:51,769 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:42:54,298 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:54,314 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:42:54,315 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:54,316 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:42:56,103 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 112
+2015-12-25 14:42:58,665 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:58,680 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:42:58,681 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:42:58,682 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:43:00,146 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 112
+2015-12-25 14:43:03,715 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:43:03,730 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:43:03,730 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:43:03,730 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:43:05,871 [DEBUG] HandleChooseProduct
+2015-12-25 14:43:22,481 [INFO] m_btnCreateBill_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-25 14:43:26,473 [INFO] m_btnCreateBill_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-25 14:43:29,307 [INFO] m_btnCreateBill_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-25 14:43:40,620 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-25 14:46:40,415 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 14:46:42,404 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 14:46:42,404 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 14:46:42,404 [INFO] LoginPresenter.cs: Finish validating user: NhanVien
+2015-12-25 14:46:51,929 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:46:51,998 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:46:51,998 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:46:51,998 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:46:53,158 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 112
+2015-12-25 14:46:54,940 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:46:54,958 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:46:54,960 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:46:54,961 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:46:55,767 [DEBUG] HandleChooseProduct
+2015-12-25 14:47:05,407 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:47:05,422 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:47:05,439 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:47:05,440 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:47:06,141 [DEBUG] HandleChooseProduct
+2015-12-25 14:47:07,606 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:47:07,618 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:47:07,619 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:47:07,620 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:47:08,678 [DEBUG] HandleChooseProduct
+2015-12-25 14:47:10,180 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:47:10,199 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:47:10,200 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-25 14:47:10,201 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:47:11,672 [DEBUG] HandleChooseProduct
+2015-12-25 14:51:11,196 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-25 14:51:27,872 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-25 14:51:28,210 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47

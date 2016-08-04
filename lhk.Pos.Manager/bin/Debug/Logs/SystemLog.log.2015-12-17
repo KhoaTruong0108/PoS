@@ -1,0 +1,644 @@
+2015-12-17 09:10:33,977 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 09:10:42,855 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 09:10:42,857 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 09:10:42,857 [INFO] LoginPresenter.cs: Finish validating user: admin
+2015-12-17 09:11:22,733 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 09:11:22,734 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 09:11:22,735 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-17 09:11:22,735 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-17 09:11:23,155 [INFO] :: Main_Manager_Load: Main
+2015-12-17 09:11:27,729 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 0.: lhk.POS.Common.Business.UnitBusiness
+2015-12-17 09:11:27,743 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-17 09:11:28,110 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 0.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 11:28:22,529 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:28:28,256 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.NotSupportedException: Model compatibility cannot be checked because the database does not contain model metadata. Model compatibility can only be checked for databases created using Code First or Code First Migrations.
+   at System.Data.Entity.Internal.ModelCompatibilityChecker.CompatibleWithModel(InternalContext internalContext, ModelHashCalculator modelHashCalculator, Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Internal.InternalContext.CompatibleWithModel(Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.CompatibleWithModel(Boolean throwIfNoMetadata)
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 28
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-17 11:28:28,288 [ERROR] LoginPresenter.cs: Error occurs when validating user.
+System.NotSupportedException: Model compatibility cannot be checked because the database does not contain model metadata. Model compatibility can only be checked for databases created using Code First or Code First Migrations.
+   at System.Data.Entity.Internal.ModelCompatibilityChecker.CompatibleWithModel(InternalContext internalContext, ModelHashCalculator modelHashCalculator, Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Internal.InternalContext.CompatibleWithModel(Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.CompatibleWithModel(Boolean throwIfNoMetadata)
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 28
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at lhk.POS.Common.Business.UserBusiness.GetUser(String userName, String role, Boolean isDeleted) in d:\PROJECT\pos-system\lhk.POS.Business\Business\UserBusiness.cs:line 27
+   at lhk.POS.Presentation.Presenters.LoginPresenter.ValidateUser(String userName, String password, String role) in d:\PROJECT\pos-system\PosSystem\Presenters\LoginPresenter.cs:line 79
+2015-12-17 11:30:08,855 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:32:34,488 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:32:40,843 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 0.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 11:32:40,890 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 11:32:40,890 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-17 11:33:04,256 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:33:15,112 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Cannot open database "PosDB" requested by the login. The login failed.
+Login failed for user 'KHOA-PC\ASUS-PC'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__38(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-17 11:33:15,443 [ERROR] LoginPresenter.cs: Error occurs when validating user.
+System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.Data.SqlClient.SqlException: Cannot open database "PosDB" requested by the login. The login failed.
+Login failed for user 'KHOA-PC\ASUS-PC'.
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__38(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at lhk.POS.Common.Business.UserBusiness.GetUser(String userName, String role, Boolean isDeleted) in d:\PROJECT\pos-system\lhk.POS.Business\Business\UserBusiness.cs:line 27
+   at lhk.POS.Presentation.Presenters.LoginPresenter.ValidateUser(String userName, String password, String role) in d:\PROJECT\pos-system\PosSystem\Presenters\LoginPresenter.cs:line 79
+2015-12-17 11:33:43,475 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:34:19,384 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 11:34:19,400 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 11:34:19,400 [INFO] LoginPresenter.cs: Finish validating user: sdf
+2015-12-17 11:47:00,636 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:47:18,178 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Data.ExistedDbInstallation.MoveAllDb() in d:\PROJECT\pos-system\lhk.POS.Data\ExistedDbInstallation.cs:line 27
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 40
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-17 11:47:18,632 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 11:47:18,632 [INFO] LoginPresenter.cs: Finish validating user: sdf
+2015-12-17 11:48:37,199 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:50:14,751 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:50:20,840 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 0.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 11:50:20,841 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 11:50:20,841 [INFO] LoginPresenter.cs: Finish validating user: sdf
+2015-12-17 11:50:59,669 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:51:25,515 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 11:51:25,530 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 11:51:25,530 [INFO] LoginPresenter.cs: Finish validating user: e
+2015-12-17 11:52:41,302 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:53:27,626 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 11:53:27,642 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 11:53:27,642 [INFO] LoginPresenter.cs: Finish validating user: new
+2015-12-17 11:54:53,943 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 11:55:10,805 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Data.ExistedDbInstallation.MoveAllDb() in d:\PROJECT\pos-system\lhk.POS.Data\ExistedDbInstallation.cs:line 30
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 40
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-17 11:55:11,290 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 11:55:11,290 [INFO] LoginPresenter.cs: Finish validating user: e
+2015-12-17 11:56:00,957 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 15:30:27,500 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 15:38:34,911 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 15:41:57,670 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 15:44:35,982 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 15:47:12,864 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 15:51:32,762 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 16:20:31,235 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 16:24:10,761 [ERROR] AppLogger.cs: 
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_dbo.Customer'. Cannot insert duplicate key in object 'dbo.Customer'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__58()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__57()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreCommand(TransactionalBehavior transactionalBehavior, String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at lhk.POS.Data.PosDBContext.ExecuteSqlCommand(String sql, Nullable`1 timeout, Object[] parameters) in d:\PROJECT\pos-system\lhk.POS.Data\PosDBContext.cs:line 183
+   at lhk.POS.Data.SqlFileInstallation.ExecuteSqlFile(String path) in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 54
+   at lhk.POS.Data.SqlFileInstallation.InstallData() in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 33
+ClientConnectionId:28cad143-00ea-48a8-8938-da08eff1a375
+Error Number:2627,State:1,Class:14
+2015-12-17 16:24:11,545 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 16:24:11,603 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 16:24:11,603 [INFO] LoginPresenter.cs: Finish validating user: u
+2015-12-17 16:34:39,540 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 16:55:01,826 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 16:59:39,211 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 17:41:29,379 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 17:41:52,098 [ERROR] AppLogger.cs: 
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_dbo.Customer'. Cannot insert duplicate key in object 'dbo.Customer'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__58()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__57()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreCommand(TransactionalBehavior transactionalBehavior, String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at lhk.POS.Data.PosDBContext.ExecuteSqlCommand(String sql, Nullable`1 timeout, Object[] parameters) in d:\PROJECT\pos-system\lhk.POS.Data\PosDBContext.cs:line 183
+   at lhk.POS.Data.SqlFileInstallation.ExecuteSqlFile(String path) in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 54
+   at lhk.POS.Data.SqlFileInstallation.InstallData() in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 33
+ClientConnectionId:5c41ca0c-ede0-4c59-9aff-c1604343b16e
+Error Number:2627,State:1,Class:14
+2015-12-17 17:41:52,188 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 17:41:52,189 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-17 17:41:52,189 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-17 17:41:52,459 [INFO] :: Main_Manager_Load: Main
+2015-12-17 17:44:55,945 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-17 17:44:55,947 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-17 17:44:56,118 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 17:44:59,146 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:44:59,182 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:00,273 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:00,275 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:00,814 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:00,815 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:21,389 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:21,390 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:23,861 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:23,864 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:25,547 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:25,548 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:26,253 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:26,254 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:27,053 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:27,061 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:27,906 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:27,907 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:28,526 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:28,527 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:29,109 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:29,111 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:29,561 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:29,564 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 17:45:34,831 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 17:45:34,832 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:18:52,465 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 18:18:54,909 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 18:18:54,910 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-17 18:18:54,910 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-17 18:18:55,078 [INFO] :: Main_Manager_Load: Main
+2015-12-17 18:18:56,875 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-17 18:18:56,884 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-17 18:18:57,002 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:18:58,363 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:18:58,364 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:18:58,448 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:18:59,845 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:18:59,845 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:18:59,847 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.CategoryBusiness
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-17 18:18:59,855 [ERROR] AppLogger.cs: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at lhk.POS.Presentation.Presenters.ProductPresenter.getProductByCategory(Int32 parentId) in d:\PROJECT\pos-system\PosSystem\Presenters\ProductPresenter.cs:line 182
+   at lhk.POS.Presentation.Presenters.ProductPresenter.getProductByCategory(Int32 parentId) in d:\PROJECT\pos-system\PosSystem\Presenters\ProductPresenter.cs:line 184
+   at lhk.POS.Presentation.Presenters.ProductPresenter.LoadProductsByCategory() in d:\PROJECT\pos-system\PosSystem\Presenters\ProductPresenter.cs:line 167
+2015-12-17 18:18:59,901 [ERROR] AppLogger.cs: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at lhk.POS.Presentation.Presenters.ProductPresenter.LoadProductsByCategory() in d:\PROJECT\pos-system\PosSystem\Presenters\ProductPresenter.cs:line 174
+   at lhk.POS.Presentation.Views.ProductView._ctvCategory_AfterSelect(Object sender, TreeViewEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Product\ProductView.cs:line 118
+2015-12-17 18:19:00,901 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:19:00,902 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:19:00,904 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:19:01,825 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:19:01,826 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:19:01,826 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.CategoryBusiness
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-17 18:19:01,827 [ERROR] AppLogger.cs: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at lhk.POS.Presentation.Presenters.ProductPresenter.getProductByCategory(Int32 parentId) in d:\PROJECT\pos-system\PosSystem\Presenters\ProductPresenter.cs:line 182
+   at lhk.POS.Presentation.Presenters.ProductPresenter.getProductByCategory(Int32 parentId) in d:\PROJECT\pos-system\PosSystem\Presenters\ProductPresenter.cs:line 184
+   at lhk.POS.Presentation.Presenters.ProductPresenter.LoadProductsByCategory() in d:\PROJECT\pos-system\PosSystem\Presenters\ProductPresenter.cs:line 167
+2015-12-17 18:19:01,827 [ERROR] AppLogger.cs: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at lhk.POS.Presentation.Presenters.ProductPresenter.LoadProductsByCategory() in d:\PROJECT\pos-system\PosSystem\Presenters\ProductPresenter.cs:line 174
+   at lhk.POS.Presentation.Views.ProductView._ctvCategory_AfterSelect(Object sender, TreeViewEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Product\ProductView.cs:line 118
+2015-12-17 18:19:03,212 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:19:03,213 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:19:03,215 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:19:03,777 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:19:03,778 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:19:03,780 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:19:35,666 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 18:19:37,813 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 18:19:37,831 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-17 18:19:37,832 [INFO] LoginPresenter.cs: Finish validating user: admin
+2015-12-17 18:19:44,236 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 18:19:44,248 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 18:19:44,254 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-17 18:19:44,254 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-17 18:19:44,453 [INFO] :: Main_Manager_Load: Main
+2015-12-17 18:19:46,812 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-17 18:19:46,860 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-17 18:19:47,114 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:19:51,564 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:19:56,927 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:19:57,110 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.CategoryBusiness
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-17 18:26:13,821 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 18:26:16,011 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 18:26:16,027 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-17 18:26:16,027 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-17 18:26:16,194 [INFO] :: Main_Manager_Load: Main
+2015-12-17 18:26:17,242 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-17 18:26:17,287 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-17 18:26:17,411 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:20,831 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:26:22,440 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:22,535 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:26:24,541 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:26:26,325 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,356 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,380 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,394 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,425 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,456 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,491 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,510 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,525 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,556 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,589 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,616 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,640 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,655 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,689 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,709 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,725 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,756 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,772 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,794 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,830 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,856 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,894 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,910 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,941 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,957 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:26,994 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,010 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,041 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,057 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,095 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,117 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,144 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,168 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,192 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,210 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,242 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,273 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:27,311 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:34,947 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:26:40,505 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:26:42,330 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:26:49,159 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:26:59,342 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:27:00,343 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:27:00,365 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:27:00,381 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:27:00,412 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:27:02,783 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:27:13,093 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:09,205 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-17 18:29:11,445 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-17 18:29:11,460 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-17 18:29:11,460 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-17 18:29:11,661 [INFO] :: Main_Manager_Load: Main
+2015-12-17 18:29:13,083 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-17 18:29:13,123 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-17 18:29:13,263 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:16,028 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:29:17,859 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:17,906 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:17,944 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:17,994 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,023 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,075 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,106 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,144 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,175 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,230 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,260 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,306 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,375 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,422 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,465 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,501 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,542 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,576 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,607 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,645 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,692 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,736 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,770 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,816 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,860 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,907 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,950 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:18,996 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,026 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,076 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,123 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,161 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,197 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,242 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,279 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,326 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,361 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,408 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:19,532 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:29:20,582 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:29:21,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:21,614 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:29:26,330 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:29:28,461 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:28,508 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:28,561 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:28,577 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:29:30,063 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:29:34,287 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:37,077 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:29:40,482 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:29:40,514 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:40,559 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:40,598 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:40,613 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:29:41,347 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:29:41,376 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:41,398 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:29:42,378 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:29:42,398 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:42,429 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:42,481 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:42,498 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:29:44,333 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:29:44,366 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:29:44,388 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-17 18:30:05,816 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-17 18:30:05,834 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-17 18:30:05,865 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness

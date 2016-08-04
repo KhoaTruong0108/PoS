@@ -1,0 +1,682 @@
+2015-12-25 14:09:33,383 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 14:09:35,451 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 14:09:35,451 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 14:09:35,451 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-25 14:09:35,567 [INFO] :: Main_Manager_Load: Main
+2015-12-25 14:09:36,911 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 14:09:36,927 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 14:09:37,012 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:09:40,301 [INFO] handle tsbAddNew: Main
+2015-12-25 14:09:54,983 [INFO] handle tsbSave: Main
+2015-12-25 14:09:54,983 [INFO] ProductPresenter.cs: InsertUpdateProduct
+2015-12-25 14:09:55,068 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:09:55,152 [ERROR] AppLogger.cs: 
+System.Exception: Property: Name Error: The Name field is required.
+Property: Name Error: The Name field is required.
+ ---> System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 49
+   --- End of inner exception stack trace ---
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 61
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-25 14:09:55,152 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:09:55,152 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:09:55,152 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:09:59,511 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-25 14:09:59,511 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:11:49,833 [INFO] handle tsbAddNew: Main
+2015-12-25 14:12:00,740 [INFO] handle tsbSave: Main
+2015-12-25 14:12:00,740 [INFO] ProductPresenter.cs: InsertUpdateProduct
+2015-12-25 14:12:00,740 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:12:28,856 [ERROR] AppLogger.cs: 
+System.Exception: Property: Name Error: The Name field is required.
+Property: Name Error: The Name field is required.
+Property: Name Error: The Name field is required.
+Property: Name Error: The Name field is required.
+ ---> System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 49
+   --- End of inner exception stack trace ---
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 61
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-25 14:12:28,856 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:12:28,856 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:12:28,856 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:12:28,856 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:12:28,871 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:14:08,296 [INFO] handle tsbAddNew: Main
+2015-12-25 14:16:19,923 [INFO] handle tsbCancel: Main
+2015-12-25 14:16:19,923 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:16:19,923 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:16:19,923 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:16:19,923 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:16:19,940 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:16:20,364 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 14:16:20,364 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 14:16:53,564 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:16:57,041 [INFO] handle tsbAddNew: Main
+2015-12-25 14:17:07,419 [INFO] handle tsbSave: Main
+2015-12-25 14:17:07,419 [INFO] ProductPresenter.cs: InsertUpdateProduct
+2015-12-25 14:17:07,435 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:17:56,118 [ERROR] AppLogger.cs: 
+System.Exception: Property: Name Error: The Name field is required.
+Property: Name Error: The Name field is required.
+ ---> System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 49
+   --- End of inner exception stack trace ---
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 61
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-25 14:17:56,134 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:17:56,134 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:17:56,134 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:17:58,840 [INFO] handle tsbAddNew: Main
+2015-12-25 14:21:59,422 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 14:22:01,523 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 14:22:01,539 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 14:22:01,539 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-25 14:22:01,655 [INFO] :: Main_Manager_Load: Main
+2015-12-25 14:22:03,359 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 14:22:03,381 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 14:22:03,444 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:05,919 [INFO] handle tsbAddNew: Main
+2015-12-25 14:22:17,125 [INFO] handle tsbSave: Main
+2015-12-25 14:22:17,125 [INFO] ProductPresenter.cs: InsertUpdateProduct
+2015-12-25 14:22:17,188 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:17,442 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:17,458 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:17,458 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:23,517 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:23,517 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:23,517 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:23,517 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:23,517 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:24,086 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:24,086 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:24,086 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:25,924 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:25,924 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:25,924 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:26,342 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:26,364 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:26,364 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:26,882 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:26,882 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:26,882 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:26,882 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:26,897 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:26,897 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:27,416 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:27,416 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:27,416 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:54,641 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:54,641 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:54,641 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:55,241 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:55,241 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:55,257 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:55,257 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:55,257 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:55,907 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:55,907 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:55,907 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:56,292 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:56,292 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,292 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,292 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,292 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,292 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,292 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,307 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,307 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,307 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,307 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,307 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,307 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,307 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,307 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,323 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,339 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,341 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,343 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,344 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,360 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,360 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:56,360 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:22:59,906 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:22:59,906 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:22:59,906 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:05,985 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:05,986 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:05,987 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:06,403 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:06,403 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:06,403 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:06,403 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:06,403 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:07,606 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:07,606 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:07,621 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:07,822 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:07,822 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:07,822 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:08,006 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:08,006 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,006 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,006 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,022 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,022 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:08,208 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:08,223 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,223 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:08,492 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:08,492 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,492 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:08,710 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:08,710 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,710 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:08,991 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:08,996 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,997 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,997 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:08,997 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:10,475 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:10,475 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:10,475 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:10,999 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:10,999 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:10,999 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:11,046 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:11,046 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,046 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:11,077 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:11,115 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,115 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:11,131 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:11,131 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,131 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:11,146 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:11,146 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,162 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,162 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,162 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,162 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,162 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:11,178 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:11,195 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,197 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:11,664 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:11,664 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,680 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,680 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,680 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,680 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,696 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:11,902 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:11,902 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:11,902 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:12,082 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:12,082 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:12,082 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:12,302 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:12,302 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:12,302 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:12,803 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:12,819 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:12,819 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:13,338 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:13,338 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,338 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:13,369 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:13,369 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,385 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,385 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,385 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,385 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,385 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:13,423 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:13,423 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,423 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:13,454 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:13,454 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,454 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:13,485 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:13,485 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,485 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:13,523 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:13,523 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,523 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:13,570 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:13,570 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,570 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,570 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,570 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,570 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,570 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,570 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:13,607 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:13,607 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,607 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:13,873 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:13,873 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:13,873 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:14,145 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:14,145 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,161 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:14,362 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:14,362 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,362 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:14,546 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:14,562 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,562 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:14,746 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:14,746 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,746 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,746 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,746 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,762 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,762 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,762 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:14,946 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:14,962 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:14,978 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,494 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,511 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,516 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,547 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,547 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,547 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,579 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,579 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,579 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,616 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,616 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,616 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,648 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,648 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,648 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,648 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,648 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,663 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,663 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,663 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,679 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,694 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,694 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,716 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,716 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,732 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,763 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,763 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,763 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,794 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,794 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,794 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,832 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,832 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,832 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:15,879 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:15,879 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:15,879 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:16,699 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:16,699 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:16,699 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,221 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,237 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,237 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,268 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,268 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,268 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,299 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,299 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,299 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,337 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,337 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,337 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,368 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,368 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,368 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,368 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,383 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,383 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,383 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,383 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,416 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,417 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,419 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,452 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,452 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,452 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,484 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,484 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,484 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,521 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,521 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,521 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,553 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,553 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,568 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,599 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,637 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,637 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,637 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,668 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,716 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,717 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,719 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,752 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,752 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,752 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,783 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,783 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,783 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,821 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,821 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,821 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,821 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,821 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,837 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,837 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,837 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,852 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,868 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,868 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,899 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,899 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,899 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,937 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,937 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,937 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:17,968 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:17,968 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:17,968 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,017 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,018 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,020 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,021 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,021 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,021 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,021 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,052 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,052 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,052 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,084 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,084 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,084 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,152 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,152 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,152 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,184 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,184 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,184 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,199 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,199 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,199 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,237 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,237 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,237 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,237 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,237 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,368 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,368 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,368 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,399 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,399 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,399 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,437 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,437 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,437 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,484 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,484 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,484 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,484 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,484 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,484 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,522 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,522 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,522 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,553 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,553 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,553 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,584 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,584 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,600 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,600 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,600 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,621 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,621 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,637 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:18,668 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:18,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,684 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,700 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,716 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,718 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,720 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,721 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:18,737 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:19,202 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:19,202 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:19,202 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:24,260 [INFO] handle tsbAddNew: Main
+2015-12-25 14:23:39,148 [INFO] handle tsbSave: Main
+2015-12-25 14:23:39,148 [INFO] ProductPresenter.cs: InsertUpdateProduct
+2015-12-25 14:23:39,148 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 409.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:23:39,163 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:23:39,163 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:23:39,163 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:26:11,880 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 14:26:11,880 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 14:26:22,156 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 14:26:22,156 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 14:27:00,652 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-25 14:27:00,667 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:27:03,295 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-25 14:27:03,295 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:56:00,057 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:56:00,057 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:56:00,057 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:56:13,877 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:56:13,877 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:56:13,877 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:56:16,223 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:56:16,223 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:56:16,223 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:56:16,223 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:56:16,223 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:56:16,762 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:56:16,762 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:56:16,762 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:56:21,141 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 14:56:21,141 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 14:56:21,141 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 14:57:27,540 [INFO] handle tsbEdit: Main
+2015-12-25 15:21:04,405 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 15:21:06,409 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 15:21:06,409 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 15:21:06,409 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-25 15:21:06,509 [INFO] :: Main_Manager_Load: Main
+2015-12-25 15:21:07,911 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 15:21:07,926 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 15:21:07,995 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:21:10,179 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:21:10,197 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:21:10,264 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:24:22,932 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 15:24:25,239 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 15:24:25,239 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 15:24:25,239 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-25 15:24:25,371 [INFO] :: Main_Manager_Load: Main
+2015-12-25 15:24:26,192 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 15:24:26,214 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 15:24:26,277 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:24:29,236 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:24:29,251 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:24:29,320 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:26:51,656 [INFO] :: Main_Manager_Load: Main
+2015-12-25 15:26:51,703 [ERROR] Main.cs: Main
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.Main.Main_Load(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\MainForm\Main.cs:line 50
+2015-12-25 15:27:09,458 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 15:27:11,518 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 15:27:11,518 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 15:27:11,518 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-25 15:27:11,671 [INFO] :: Main_Manager_Load: Main
+2015-12-25 15:27:13,076 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 15:27:13,076 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 15:27:13,139 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:27:15,698 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:27:15,713 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:27:15,782 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:30:00,000 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 15:30:02,472 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 15:30:02,473 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 15:30:02,474 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-25 15:30:02,589 [INFO] :: Main_Manager_Load: Main
+2015-12-25 15:30:03,658 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 15:30:03,673 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 15:30:03,742 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:30:06,076 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:30:06,076 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:30:06,192 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:30:37,010 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 15:30:38,968 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 15:30:38,968 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 15:30:38,968 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-25 15:30:39,099 [INFO] :: Main_Manager_Load: Main
+2015-12-25 15:30:40,536 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 15:30:40,542 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 15:30:40,605 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:30:42,894 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:30:42,894 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:30:42,962 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:36:06,881 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 15:36:08,904 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 15:36:08,920 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 15:36:08,920 [INFO] LoginPresenter.cs: Finish validating user: ThanhHUong
+2015-12-25 15:36:09,036 [INFO] :: Main_Manager_Load: Main
+2015-12-25 15:36:10,340 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 15:36:10,356 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 15:36:10,425 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:36:12,316 [INFO] handle tsbAddNew: Main
+2015-12-25 15:36:14,535 [INFO] handle tsbCancel: Main
+2015-12-25 15:36:14,567 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:36:14,567 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:36:14,651 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:36:16,306 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:36:16,306 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:36:16,306 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:36:17,627 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:36:17,627 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:36:17,627 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:36:17,627 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:36:17,627 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:36:18,190 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:36:18,190 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:36:18,190 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:37:45,073 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 15:37:47,162 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 15:37:47,178 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-25 15:37:47,178 [INFO] LoginPresenter.cs: Finish validating user: ThanHuong
+2015-12-25 15:37:53,328 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 15:37:53,332 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 15:37:53,332 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 15:37:53,332 [INFO] LoginPresenter.cs: Finish validating user: ThanhHuong
+2015-12-25 15:37:53,510 [INFO] :: Main_Manager_Load: Main
+2015-12-25 15:37:54,830 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 15:37:54,852 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 15:38:02,548 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:38:06,319 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:38:06,388 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:38:06,488 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:53:41,829 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-25 15:53:43,870 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-25 15:53:43,870 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-25 15:53:43,870 [INFO] LoginPresenter.cs: Finish validating user: thanhhuong
+2015-12-25 15:53:43,970 [INFO] :: Main_Manager_Load: Main
+2015-12-25 15:53:45,149 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 15:53:45,149 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 15:53:45,218 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:53:49,104 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:53:49,104 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:53:49,188 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:53:52,815 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:53:52,815 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:53:52,815 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:53:52,815 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:53:52,815 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:53:53,400 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:53:53,400 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:53:53,400 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness
+2015-12-25 15:54:16,776 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-25 15:54:16,777 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-25 15:55:00,885 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-25 15:55:00,885 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-25 15:55:00,885 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 410.: lhk.POS.Common.Business.ProductBusiness

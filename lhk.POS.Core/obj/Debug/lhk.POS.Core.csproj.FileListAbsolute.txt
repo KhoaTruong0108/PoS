@@ -1,0 +1,21 @@
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\bin\Debug\lhk.POS.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\bin\Debug\lhk.POS.Core.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\bin\Debug\EntityFramework.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\bin\Debug\log4net.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\bin\Debug\SpreadsheetGear.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\bin\Debug\EntityFramework.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\obj\Debug\lhk.POS.Core.csprojResolveAssemblyReference.cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\obj\Debug\lhk.POS.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.POS.Core\obj\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Debug\EntityFramework.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Debug\log4net.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Debug\SpreadsheetGear.dll
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Debug\EntityFramework.xml
+D:\PROJECT\pos-system\lhk.POS.Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\lhk.POS.Core\obj\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\lhk.POS.Core\obj\Debug\lhk.POS.Core.pdb

@@ -1,0 +1,15 @@
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\ExistingDatabaseConverter.dll.config
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\ExistingDatabaseConverter.dll
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\ExistingDatabaseConverter.pdb
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\AutoMapper.dll
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\EntityFramework.dll
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\log4net.dll
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\AutoMapper.xml
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\EntityFramework.xml
+D:\PROJECT\pos-system\ExistingDatabaseConverter\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\ExistingDatabaseConverter\obj\Debug\ExistingDatabaseConverter.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\ExistingDatabaseConverter\obj\Debug\ExistingDatabaseConverter.dll
+D:\PROJECT\pos-system\ExistingDatabaseConverter\obj\Debug\ExistingDatabaseConverter.pdb

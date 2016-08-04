@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{23C7D058-6E89-4551-A892-CE9A0A72143F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PosSystem</RootNamespace>
+    <AssemblyName>POS.Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=3.4.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Autofac.3.4.1\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\lib\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms.11.0.0.0.Fakes">
+      <HintPath>FakesAssemblies\Microsoft.ReportViewer.WinForms.11.0.0.0.Fakes.dll</HintPath>
+    </Reference>
+    <Reference Include="PasswordUtility.Core">
+      <HintPath>..\lib\PasswordUtility.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetGear">
+      <HintPath>..\lib\SpreadsheetGear.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\CategoryTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\CategoryTreeView.Designer.cs">
+      <DependentUpon>CategoryTreeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Depency\DependencyRegistrar.cs" />
+    <Compile Include="Depency\PosEngine.cs" />
+    <Compile Include="InvoicePrinter.cs" />
+    <Compile Include="Models\Component\SaleProduct\SaleProductModel.cs" />
+    <Compile Include="Models\Customer\CustomerFinderModel.cs" />
+    <Compile Include="Models\ImportProduct\ImportProductModel.cs" />
+    <Compile Include="Models\Product\ProductFinderModel.cs" />
+    <Compile Include="Models\Product\ProductPriceModel.cs" />
+    <Compile Include="Models\Sale\PaymentDetailModel.cs" />
+    <Compile Include="Models\Sale\ProductGridEntity.cs" />
+    <Compile Include="Models\Sale\SaleModel.cs" />
+    <Compile Include="Presenters\Component\SaleProduct\SaleProductPresenter.cs" />
+    <Compile Include="Presenters\CustomerFinderPresenter.cs" />
+    <Compile Include="Presenters\PaymentDetailPresenter.cs" />
+    <Compile Include="Presenters\ProductFinderPresenter.cs" />
+    <Compile Include="Presenters\ImportProductPresenter.cs" />
+    <Compile Include="Presenters\ProductPricePresenter.cs" />
+    <Compile Include="Presenters\SalePresenter.cs" />
+    <Compile Include="Views\Component\GenericComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Component\GenericComponent.Designer.cs">
+      <DependentUpon>GenericComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Component\InputProduct\FastInputProducts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Component\InputProduct\FastInputProducts.Designer.cs">
+      <DependentUpon>FastInputProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Component\SaleProduct\ISaleProductComponent.cs" />
+    <Compile Include="Views\Component\SaleProduct\SaleProductComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Component\SaleProduct\SaleProductComponent.Designer.cs">
+      <DependentUpon>SaleProductComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customer\CustomerFinderView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Customer\CustomerFinderView.designer.cs">
+      <DependentUpon>CustomerFinderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customer\ICustomerFinderView.cs" />
+    <Compile Include="Views\Customer\CustomerQuickAddView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Customer\CustomerQuickAddView.designer.cs">
+      <DependentUpon>CustomerQuickAddView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Customer\CustomerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Customer\CustomerView.Designer.cs">
+      <DependentUpon>CustomerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GenericView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\Customer\CustomerModel.cs" />
+    <Compile Include="Models\Customer\CustomerServiceModel.cs" />
+    <Compile Include="Models\Inventory\InventoryModel.cs" />
+    <Compile Include="Models\Login\LoginModel.cs" />
+    <Compile Include="Models\Product\ProductModel.cs" />
+    <Compile Include="Models\Promotion\PromotionModel.cs" />
+    <Compile Include="Models\Report\ReportModel.cs" />
+    <Compile Include="Models\User\UserModel.cs" />
+    <Compile Include="Presenters\CustomerPresenter.cs" />
+    <Compile Include="Presenters\InventoryPresenter.cs" />
+    <Compile Include="Presenters\LoginPresenter.cs" />
+    <Compile Include="Presenters\ProductPresenter.cs" />
+    <Compile Include="Presenters\PromotionPresenter.cs" />
+    <Compile Include="Presenters\ReportPresenter.cs" />
+    <Compile Include="Presenters\UserPresenter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Customer\CustomerServiceView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Customer\ICustomerServiceView.cs" />
+    <Compile Include="Views\Customer\ICustomerView.cs" />
+    <Compile Include="Views\ImportProduct\IImportProductView.cs" />
+    <Compile Include="Views\ImportProduct\ImportProductView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ImportProduct\ImportProductView.Designer.cs">
+      <DependentUpon>ImportProductView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inventory\IInventoryView.cs" />
+    <Compile Include="Views\Inventory\InventoryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login\ILoginView.cs" />
+    <Compile Include="Views\Login\LoginView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Login\LoginView.Designer.cs">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MainForm\BindableToolStripButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\MainForm\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\MainForm\Main.designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\MainForm\MainModel.cs" />
+    <Compile Include="Views\Product\IProductFinderView.cs" />
+    <Compile Include="Views\Product\IProductPriceView.cs" />
+    <Compile Include="Views\Product\IProductView.cs" />
+    <Compile Include="Views\Product\ProductQuickAddView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Product\ProductQuickAddView.designer.cs">
+      <DependentUpon>ProductQuickAddView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\ProductPriceView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Product\ProductPriceView.designer.cs">
+      <DependentUpon>ProductPriceView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\ProductView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Product\ProductView.designer.cs">
+      <DependentUpon>ProductView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Product\ProductFinderView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Product\ProductFinderView.designer.cs">
+      <DependentUpon>ProductFinderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Promotion\IPromotionView.cs" />
+    <Compile Include="Views\Promotion\PromotionView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Report\ReportView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Report\ReportView.Designer.cs">
+      <DependentUpon>ReportView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Report\IReportView.cs" />
+    <Compile Include="Views\Sale\IPaymentDetailView.cs" />
+    <Compile Include="Views\Sale\ISaleView.cs" />
+    <Compile Include="Views\Sale\PaymentDetailView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Sale\PaymentDetailView.designer.cs">
+      <DependentUpon>PaymentDetailView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Sale\SaleView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Sale\SaleView.designer.cs">
+      <DependentUpon>SaleView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\User\IUserView.cs" />
+    <Compile Include="Views\User\UserView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Models\Sale\OrderInvoice.rdlc">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Component\InputProduct\FastInputProducts.resx">
+      <DependentUpon>FastInputProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Component\SaleProduct\SaleProductComponent.resx">
+      <DependentUpon>SaleProductComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Customer\CustomerFinderView.resx">
+      <DependentUpon>CustomerFinderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Customer\CustomerQuickAddView.resx">
+      <DependentUpon>CustomerQuickAddView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Customer\CustomerView.resx">
+      <DependentUpon>CustomerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\GenericView.resx">
+      <DependentUpon>GenericView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\ImportProduct\ImportProductView.resx">
+      <DependentUpon>ImportProductView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Login\LoginView.resx">
+      <DependentUpon>LoginView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\MainForm\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Product\ProductQuickAddView.resx">
+      <DependentUpon>ProductQuickAddView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Product\ProductPriceView.resx">
+      <DependentUpon>ProductPriceView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Product\ProductView.resx">
+      <DependentUpon>ProductView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Product\ProductFinderView.resx">
+      <DependentUpon>ProductFinderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Report\ReportView.resx">
+      <DependentUpon>ReportView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Sale\PaymentDetailView.resx">
+      <DependentUpon>PaymentDetailView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Sale\SaleView.resx">
+      <DependentUpon>SaleView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\lhk.POS.Core.Domain.Customer.datasource" />
+    <None Include="Properties\DataSources\lhk.POS.Core.Domain.Order.datasource" />
+    <None Include="Properties\DataSources\lhk.POS.Core.Domain.OrderItem.datasource" />
+    <None Include="Properties\DataSources\lhk.POS.Core.Domain.Product.datasource" />
+    <None Include="Properties\DataSources\lhk.POS.Presentation.Models.ProductGridEntity.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\lhk.POS.Business\lhk.POS.Common.csproj">
+      <Project>{74bafc95-67cb-4172-8b9e-2f63c50026d8}</Project>
+      <Name>lhk.POS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lhk.POS.Core\lhk.POS.Core.csproj">
+      <Project>{3fa4932c-d1e5-4270-b11e-9c4ad16559a2}</Project>
+      <Name>lhk.POS.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\lhk.POS.Data\lhk.POS.Data.csproj">
+      <Project>{e917c5f2-b875-461d-99c2-a8926c16e6c3}</Project>
+      <Name>lhk.POS.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="create_sample_data.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Actions-edit-delete-icon.png" />
+    <None Include="Resources\edit_add.png" />
+    <None Include="Resources\Actions-arrow-down-icon.png" />
+    <None Include="Resources\Actions-arrow-up-icon.png" />
+    <None Include="Resources\logout-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

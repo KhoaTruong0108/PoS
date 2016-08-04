@@ -1,0 +1,1 @@
+sqlcmd -S localhost -E -Q "EXEC sp_BackupDatabases @backupLocation='D:\PROJECT\pos-system\DB\Backup files\', @databaseName='PosDB', @backupType='F'" 

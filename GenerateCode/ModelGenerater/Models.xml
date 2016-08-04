@@ -1,0 +1,16 @@
+﻿<NameSpace value="">
+  <NamesSpaceImport>
+    <Importer value =""/>
+  </NamesSpaceImport>
+
+  <Class name="">
+
+    <Fields>
+      <Field name="" type="" attribute1="" attribute2=""/>
+    </Fields>
+
+    <Properties>
+      <Property name="" attribute1="" attribute2="" type="" isGet="" isSet="" field=""/>
+    </Properties>
+  </Class>
+</NameSpace>

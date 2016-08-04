@@ -1,0 +1,18 @@
+D:\Khoa\Backup DATA\PROJECT\pos-system\GenerateCode\bin\Debug\GenerateCode.exe.config
+D:\Khoa\Backup DATA\PROJECT\pos-system\GenerateCode\bin\Debug\GenerateCode.exe
+D:\Khoa\Backup DATA\PROJECT\pos-system\GenerateCode\bin\Debug\GenerateCode.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\GenerateCode\bin\Debug\lhk.POS.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\GenerateCode\bin\Debug\log4net.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\GenerateCode\bin\Debug\lhk.POS.Core.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\GenerateCode\obj\Debug\GenerateCode.csprojResolveAssemblyReference.cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\GenerateCode\obj\Debug\GenerateCode.exe
+D:\Khoa\Backup DATA\PROJECT\pos-system\GenerateCode\obj\Debug\GenerateCode.pdb
+D:\PROJECT\pos-system\GenerateCode\bin\Debug\GenerateCode.exe.config
+D:\PROJECT\pos-system\GenerateCode\bin\Debug\GenerateCode.exe
+D:\PROJECT\pos-system\GenerateCode\bin\Debug\GenerateCode.pdb
+D:\PROJECT\pos-system\GenerateCode\bin\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\GenerateCode\bin\Debug\log4net.dll
+D:\PROJECT\pos-system\GenerateCode\bin\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\GenerateCode\obj\Debug\GenerateCode.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\GenerateCode\obj\Debug\GenerateCode.exe
+D:\PROJECT\pos-system\GenerateCode\obj\Debug\GenerateCode.pdb

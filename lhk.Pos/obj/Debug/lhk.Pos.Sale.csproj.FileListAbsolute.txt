@@ -1,0 +1,56 @@
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\create_sample_data.sql
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\Models\Sale\OrderInvoice.rdlc
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.Pos.Sale.exe.config
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.Pos.Sale.exe
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.Pos.Sale.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\Autofac.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Common.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Data.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\POS.Presentation.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Common.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Core.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Data.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\POS.Presentation.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\Autofac.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Sale.csprojResolveAssemblyReference.cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Properties.Resources.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Sale.csproj.GenerateResource.Cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Sale.exe
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Sale.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\EntityFramework.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\EntityFramework.SqlServer.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\log4net.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\PasswordUtility.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\EntityFramework.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\create_sample_data.sql
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\Models\Sale\OrderInvoice.rdlc
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.Pos.Sale.exe.config
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.Pos.Sale.exe
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.Pos.Sale.pdb
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\Autofac.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\EntityFramework.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Common.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Data.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\log4net.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\PasswordUtility.Core.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\POS.Presentation.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\ExistingDatabaseConverter.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\AutoMapper.dll
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Common.pdb
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\lhk.POS.Data.pdb
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\POS.Presentation.pdb
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\Autofac.xml
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\EntityFramework.xml
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\ExistingDatabaseConverter.pdb
+D:\PROJECT\pos-system\lhk.Pos\bin\Debug\AutoMapper.xml
+D:\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Sale.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Properties.Resources.resources
+D:\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Sale.csproj.GenerateResource.Cache
+D:\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Sale.exe
+D:\PROJECT\pos-system\lhk.Pos\obj\Debug\lhk.Pos.Sale.pdb

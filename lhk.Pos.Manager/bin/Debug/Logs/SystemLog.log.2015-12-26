@@ -1,0 +1,445 @@
+2015-12-26 18:30:23,389 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 18:30:25,593 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 18:30:25,593 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 18:30:25,593 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 18:30:25,708 [INFO] :: Main_Manager_Load: Main
+2015-12-26 18:30:27,515 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 18:30:27,530 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 18:30:30,036 [INFO] handle tsbEdit: Main
+2015-12-26 18:30:32,310 [INFO] handle tsbSave: Main
+2015-12-26 18:30:32,310 [INFO] ImportProductPresenter.cs: InsertUpdateProduct
+2015-12-26 18:30:32,457 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.WalkObjectGraphToIncludeAllRelatedEntities(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.ImportProductBusiness.testInsert() in d:\PROJECT\pos-system\lhk.POS.Business\Business\ImportProductBusiness.cs:line 40
+   at lhk.POS.Presentation.Presenters.ImportProductPresenter.InsertUpdateImport(Boolean isUpdating) in d:\PROJECT\pos-system\PosSystem\Presenters\ImportProductPresenter.cs:line 74
+2015-12-26 21:28:19,657 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 21:28:21,901 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 21:28:21,902 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 21:28:21,902 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 21:28:22,031 [INFO] :: Main_Manager_Load: Main
+2015-12-26 21:28:23,340 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 21:28:23,349 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 21:28:26,918 [INFO] handle tsbAddNew: Main
+2015-12-26 21:28:27,532 [INFO] handle tsbSave: Main
+2015-12-26 21:28:27,533 [INFO] ImportProductPresenter.cs: InsertUpdateProduct
+2015-12-26 21:44:21,191 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 21:44:23,359 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 21:44:23,360 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 21:44:23,360 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 21:44:23,484 [INFO] :: Main_Manager_Load: Main
+2015-12-26 21:44:25,112 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 21:44:25,124 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 21:44:27,048 [INFO] handle tsbAddNew: Main
+2015-12-26 21:44:27,548 [INFO] handle tsbSave: Main
+2015-12-26 21:44:27,550 [INFO] ImportProductPresenter.cs: InsertUpdateProduct
+2015-12-26 21:45:26,084 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 21:45:28,241 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 21:45:28,242 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 21:45:28,242 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 21:45:28,379 [INFO] :: Main_Manager_Load: Main
+2015-12-26 21:45:29,968 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 21:45:29,996 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 21:45:30,066 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 21:45:32,176 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 21:45:32,177 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 21:45:34,439 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 2.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:45:46,108 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 21:45:46,161 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 21:45:46,162 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 21:45:46,164 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 21:45:47,825 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 21:45:47,839 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 21:45:47,841 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 21:45:47,842 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 21:45:48,379 [DEBUG] HandleChooseProduct
+2015-12-26 21:45:50,057 [INFO] handle tsbAddNew: Main
+2015-12-26 21:45:51,837 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 21:45:51,848 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 21:45:51,850 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 21:45:51,850 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 21:45:52,353 [DEBUG] HandleChooseProduct
+2015-12-26 21:45:53,577 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 21:45:53,596 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 21:45:53,598 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 21:45:53,598 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 21:45:53,784 [DEBUG] HandleChooseProduct
+2015-12-26 21:45:54,936 [INFO] handle tsbSave: Main
+2015-12-26 21:45:54,938 [INFO] ImportProductPresenter.cs: InsertUpdateProduct
+2015-12-26 21:46:02,401 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:46:22,516 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:46:25,412 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:46:25,780 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:49:22,000 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 21:49:24,155 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 21:49:24,165 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 21:49:24,165 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 21:49:24,328 [INFO] :: Main_Manager_Load: Main
+2015-12-26 21:49:25,471 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 21:49:25,505 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 21:49:28,336 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:49:29,592 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:49:32,015 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:49:34,373 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:50:28,866 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 21:50:31,091 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 21:50:31,101 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 21:50:31,101 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 21:50:31,239 [INFO] :: Main_Manager_Load: Main
+2015-12-26 21:50:34,504 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 21:50:34,543 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 21:50:39,048 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:54:50,550 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 21:54:52,717 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 21:54:52,732 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 21:54:52,732 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 21:54:52,886 [INFO] :: Main_Manager_Load: Main
+2015-12-26 21:54:53,831 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 21:54:53,867 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 21:54:57,947 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 21:57:53,473 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 21:57:55,655 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 21:57:55,656 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 21:57:55,656 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 21:57:55,779 [INFO] :: Main_Manager_Load: Main
+2015-12-26 21:57:57,164 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 21:57:57,172 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 21:57:59,638 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 22:06:11,638 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 22:06:13,833 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 22:06:13,833 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 22:06:13,833 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 22:06:13,963 [INFO] :: Main_Manager_Load: Main
+2015-12-26 22:06:15,547 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 22:06:15,557 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 22:06:17,837 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 22:11:03,545 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 22:11:05,746 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 22:11:05,747 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 22:11:05,747 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 22:11:05,868 [INFO] :: Main_Manager_Load: Main
+2015-12-26 22:11:07,599 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 22:11:07,609 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 22:11:08,963 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 3.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 22:11:12,960 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 22:11:12,961 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 22:11:13,026 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 22:11:19,863 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-26 22:11:19,879 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 22:11:19,893 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 22:11:22,060 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-26 22:11:22,061 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 22:11:22,063 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 22:11:40,718 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 22:11:40,719 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:24:06,214 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 23:24:28,765 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.Data.SqlClient.SqlException (0x80131904): Cannot drop database "PosDB" because it is currently in use.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass2d.<DropDatabase>b__2b(DbConnection conn)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DropDatabase(SqlConnection sqlConnection, Nullable`1 commandTimeout, String databaseName)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.DeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 31
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+ClientConnectionId:ef7ecbbe-a698-450d-8818-dfa715255db0
+Error Number:3702,State:4,Class:16
+2015-12-26 23:24:50,856 [ERROR] AppLogger.cs: 
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_dbo.Customer'. Cannot insert duplicate key in object 'dbo.Customer'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__58()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__57()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreCommand(TransactionalBehavior transactionalBehavior, String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at lhk.POS.Data.PosDBContext.ExecuteSqlCommand(String sql, Nullable`1 timeout, Object[] parameters) in d:\PROJECT\pos-system\lhk.POS.Data\PosDBContext.cs:line 183
+   at lhk.POS.Data.SqlFileInstallation.ExecuteSqlFile(String path) in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 54
+   at lhk.POS.Data.SqlFileInstallation.InstallData() in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 33
+ClientConnectionId:0d21f392-dc4b-4fa3-b962-6bd74554f74e
+Error Number:2627,State:1,Class:14
+2015-12-26 23:24:50,938 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 23:24:50,938 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 23:24:51,070 [INFO] :: Main_Manager_Load: Main
+2015-12-26 23:24:52,270 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:24:52,273 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:24:56,290 [INFO] handle tsbAddNew: Main
+2015-12-26 23:24:56,300 [ERROR] ImportProductView.cs: lhk.POS.Presentation.Views.ImportProductView, Text: ImportProductView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.HandleCreateNew() in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 73
+2015-12-26 23:25:00,139 [INFO] handle tsbEdit: Main
+2015-12-26 23:25:01,353 [INFO] handle tsbCancel: Main
+2015-12-26 23:25:01,361 [ERROR] ImportProductView.cs: lhk.POS.Presentation.Views.ImportProductView, Text: ImportProductView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.HandleCancelTask() in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 163
+2015-12-26 23:25:04,329 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-26 23:26:20,652 [INFO] handle tsbAddNew: Main
+2015-12-26 23:26:20,661 [ERROR] ImportProductView.cs: lhk.POS.Presentation.Views.ImportProductView, Text: ImportProductView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.HandleCreateNew() in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 73
+2015-12-26 23:26:21,512 [INFO] handle tsbAddNew: Main
+2015-12-26 23:26:21,512 [ERROR] ImportProductView.cs: lhk.POS.Presentation.Views.ImportProductView, Text: ImportProductView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.HandleCreateNew() in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 73
+2015-12-26 23:26:21,859 [INFO] handle tsbEdit: Main
+2015-12-26 23:26:22,184 [INFO] handle tsbCancel: Main
+2015-12-26 23:26:22,189 [ERROR] ImportProductView.cs: lhk.POS.Presentation.Views.ImportProductView, Text: ImportProductView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.HandleCancelTask() in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 163
+2015-12-26 23:26:22,900 [INFO] handle tsbEdit: Main
+2015-12-26 23:26:23,591 [INFO] handle tsbCancel: Main
+2015-12-26 23:26:23,596 [ERROR] ImportProductView.cs: lhk.POS.Presentation.Views.ImportProductView, Text: ImportProductView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.HandleCancelTask() in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 163
+2015-12-26 23:26:24,068 [INFO] handle tsbEdit: Main
+2015-12-26 23:26:24,491 [INFO] handle tsbCancel: Main
+2015-12-26 23:26:24,497 [ERROR] ImportProductView.cs: lhk.POS.Presentation.Views.ImportProductView, Text: ImportProductView
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.HandleCancelTask() in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 163
+2015-12-26 23:29:15,360 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 23:29:17,914 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 23:29:17,925 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 23:29:17,925 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 23:29:18,089 [INFO] :: Main_Manager_Load: Main
+2015-12-26 23:29:20,237 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:29:20,272 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:29:31,321 [INFO] handle tsbEdit: Main
+2015-12-26 23:29:41,760 [INFO] handle tsbCancel: Main
+2015-12-26 23:30:58,076 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 23:31:00,724 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 23:31:00,725 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 23:31:00,725 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 23:31:00,861 [INFO] :: Main_Manager_Load: Main
+2015-12-26 23:31:02,097 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:31:02,108 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:31:02,190 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 23:31:04,035 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-26 23:31:04,045 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 23:31:04,126 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:31:14,660 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:31:14,662 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:31:18,177 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PosSystem.Models.Component.SaleProduct.ProductSale.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 118
+   at PosSystem.Models.Component.SaleProduct.SaleProductModel.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 45
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-26 23:31:23,556 [INFO] handle tsbAddNew: Main
+2015-12-26 23:31:25,914 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PosSystem.Models.Component.SaleProduct.ProductSale.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 118
+   at PosSystem.Models.Component.SaleProduct.SaleProductModel.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 45
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-26 23:31:29,163 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PosSystem.Models.Component.SaleProduct.ProductSale.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 118
+   at PosSystem.Models.Component.SaleProduct.SaleProductModel.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 45
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-26 23:31:30,165 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PosSystem.Models.Component.SaleProduct.ProductSale.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 118
+   at PosSystem.Models.Component.SaleProduct.SaleProductModel.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 45
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-26 23:31:30,440 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PosSystem.Models.Component.SaleProduct.ProductSale.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 118
+   at PosSystem.Models.Component.SaleProduct.SaleProductModel.get_Barcode() in d:\PROJECT\pos-system\PosSystem\Models\Component\SaleProduct\SaleProductModel.cs:line 45
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-26 23:36:44,490 [INFO] handle tsbCancel: Main
+2015-12-26 23:37:18,801 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 23:37:21,431 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 23:37:21,431 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 23:37:21,431 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 23:37:21,579 [INFO] :: Main_Manager_Load: Main
+2015-12-26 23:37:23,266 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:37:23,280 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:37:26,991 [INFO] handle tsbAddNew: Main
+2015-12-26 23:37:31,816 [INFO] handle tsbCancel: Main
+2015-12-26 23:37:32,408 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:37:32,409 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:37:32,492 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 23:37:42,679 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-26 23:37:42,689 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 23:37:42,769 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:37:47,783 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:37:47,785 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:37:51,563 [INFO] handle tsbAddNew: Main
+2015-12-26 23:37:53,346 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 23:37:53,362 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:37:53,364 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 23:37:53,365 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:38:04,968 [INFO] handle tsbSave: Main
+2015-12-26 23:38:04,970 [INFO] ImportProductPresenter.cs: InsertUpdateProduct
+2015-12-26 23:38:07,511 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 23:38:08,792 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 23:38:08,975 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 23:38:09,158 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 23:38:09,339 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 23:38:38,629 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 23:38:38,632 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.<_dgvImportList_SelectionChanged>b__3(ImportItem i) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 183
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at lhk.POS.Presentation.Views.ImportProductView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 181
+2015-12-26 23:38:49,728 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-26 23:38:49,729 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:38:57,845 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:38:57,847 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:38:59,559 [INFO] handle tsbAddNew: Main
+2015-12-26 23:39:02,752 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 23:39:02,770 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:39:02,772 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-26 23:39:02,774 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:39:25,636 [INFO] handle tsbSave: Main
+2015-12-26 23:39:25,636 [INFO] ImportProductPresenter.cs: InsertUpdateProduct
+2015-12-26 23:39:27,664 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 2.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 23:39:27,666 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.<_dgvImportList_SelectionChanged>b__3(ImportItem i) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 183
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at lhk.POS.Presentation.Views.ImportProductView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 181
+2015-12-26 23:39:28,889 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.<_dgvImportList_SelectionChanged>b__3(ImportItem i) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 183
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at lhk.POS.Presentation.Views.ImportProductView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 181
+2015-12-26 23:39:32,199 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.<_dgvImportList_SelectionChanged>b__3(ImportItem i) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 183
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at lhk.POS.Presentation.Views.ImportProductView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 181
+2015-12-26 23:39:32,571 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.<_dgvImportList_SelectionChanged>b__3(ImportItem i) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 183
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at lhk.POS.Presentation.Views.ImportProductView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 181
+2015-12-26 23:39:33,047 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.<_dgvImportList_SelectionChanged>b__3(ImportItem i) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 183
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at lhk.POS.Presentation.Views.ImportProductView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 181
+2015-12-26 23:39:33,428 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.<_dgvImportList_SelectionChanged>b__3(ImportItem i) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 183
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at lhk.POS.Presentation.Views.ImportProductView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 181
+2015-12-26 23:39:34,396 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.<_dgvImportList_SelectionChanged>b__3(ImportItem i) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 183
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at lhk.POS.Presentation.Views.ImportProductView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 181
+2015-12-26 23:39:34,790 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.ImportProductView.<_dgvImportList_SelectionChanged>b__3(ImportItem i) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 183
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   at System.Linq.Enumerable.Sum[TSource](IEnumerable`1 source, Func`2 selector)
+   at lhk.POS.Presentation.Views.ImportProductView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\ImportProduct\ImportProductView.cs:line 181
+2015-12-26 23:39:38,255 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-26 23:39:38,256 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:39:38,923 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-26 23:39:38,924 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:39:39,127 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-26 23:39:39,128 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:39:39,319 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-26 23:39:39,320 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:42:47,501 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-26 23:42:50,070 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-26 23:42:50,073 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-26 23:42:50,073 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-26 23:42:50,228 [INFO] :: Main_Manager_Load: Main
+2015-12-26 23:42:51,388 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:42:51,398 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:42:53,947 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 2.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 23:42:55,188 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 2.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-26 23:43:07,540 [INFO] handle tsbEdit: Main
+2015-12-26 23:43:08,919 [INFO] handle tsbCancel: Main
+2015-12-26 23:43:17,343 [INFO] handle tsbEdit: Main
+2015-12-26 23:43:18,539 [INFO] handle tsbCancel: Main
+2015-12-26 23:44:44,180 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:44:44,185 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-26 23:44:44,293 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 23:44:46,950 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-26 23:44:46,954 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-26 23:44:46,978 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-26 23:44:58,552 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-26 23:44:58,553 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness

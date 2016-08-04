@@ -1,0 +1,54 @@
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\ModelBindingControlTest.exe.config
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\ModelBindingControlTest.exe
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\ModelBindingControlTest.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Data.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\log4net.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\EntityFramework.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Core.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Data.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\EntityFramework.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.csprojResolveAssemblyReference.cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.Form1.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.Properties.Resources.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.csproj.GenerateResource.Cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.exe
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.InputProductTest.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\create_sample_data.sql
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\Models\Sale\OrderInvoice.rdlc
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\POS.Presentation.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Common.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\Autofac.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\POS.Presentation.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Common.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\Autofac.xml
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\create_sample_data.sql
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\Models\Sale\OrderInvoice.rdlc
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\ModelBindingControlTest.exe.config
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\ModelBindingControlTest.exe
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\ModelBindingControlTest.pdb
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Data.dll
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\POS.Presentation.dll
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\log4net.dll
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\EntityFramework.dll
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\ExistingDatabaseConverter.dll
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Common.dll
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\Autofac.dll
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\AutoMapper.dll
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Data.pdb
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\POS.Presentation.pdb
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\EntityFramework.xml
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\ExistingDatabaseConverter.pdb
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\lhk.POS.Common.pdb
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\Autofac.xml
+D:\PROJECT\pos-system\ModelBindingControlTest\bin\Debug\AutoMapper.xml
+D:\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.Form1.resources
+D:\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.InputProductTest.resources
+D:\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.Properties.Resources.resources
+D:\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.csproj.GenerateResource.Cache
+D:\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.exe
+D:\PROJECT\pos-system\ModelBindingControlTest\obj\Debug\ModelBindingControlTest.pdb

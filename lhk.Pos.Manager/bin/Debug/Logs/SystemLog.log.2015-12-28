@@ -1,0 +1,707 @@
+2015-12-28 11:01:54,523 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:01:56,760 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:01:56,761 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:01:56,761 [INFO] LoginPresenter.cs: Finish validating user: thanhhuong
+2015-12-28 11:01:56,928 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:03:32,892 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:03:35,048 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:03:35,048 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:03:35,048 [INFO] LoginPresenter.cs: Finish validating user: thanhhuong
+2015-12-28 11:03:35,180 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:04:34,185 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:04:36,375 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:04:36,375 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:04:36,375 [INFO] LoginPresenter.cs: Finish validating user: Thanhhuong
+2015-12-28 11:04:36,522 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:05:35,930 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:05:38,096 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:05:38,096 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:05:38,096 [INFO] LoginPresenter.cs: Finish validating user: thanhhuong
+2015-12-28 11:05:38,212 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:06:40,415 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:06:42,579 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:06:42,595 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:06:42,595 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:06:42,749 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:07:24,986 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:07:27,342 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:07:27,342 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:07:27,342 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:07:27,496 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:08:02,644 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:08:05,340 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:08:05,340 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:08:05,340 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:08:05,502 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:09:57,502 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:09:59,938 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:09:59,938 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:09:59,938 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:10:00,154 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:10:36,163 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:10:36,178 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:10:36,178 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:11:55,030 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:11:55,030 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:11:55,030 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:14:07,294 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:14:09,793 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:14:09,793 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:14:09,793 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:14:09,963 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:18:01,740 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:18:04,083 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:18:04,098 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 11:18:04,098 [INFO] LoginPresenter.cs: Finish validating user: supervsior
+2015-12-28 11:18:07,402 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:18:07,418 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:18:07,433 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:18:07,433 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:18:07,602 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:18:38,049 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:18:38,049 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:18:46,768 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:18:46,768 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:18:46,768 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:21:18,105 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:21:20,625 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:21:20,625 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:21:20,625 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:21:20,810 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:21:24,697 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:21:24,712 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:21:24,712 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:21:24,828 [ERROR] AppLogger.cs: 
+System.InvalidCastException: Unable to cast object of type 'lhk.POS.Presentation.Models.OrderDisplay' to type 'lhk.POS.Core.Domain.Order'.
+   at lhk.POS.Presentation.Views.ReportView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Report\ReportView.cs:line 86
+2015-12-28 11:22:40,189 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:22:42,578 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:22:42,594 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:22:42,594 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:22:42,741 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:22:46,017 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:22:46,032 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:22:46,032 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:22:46,085 [ERROR] AppLogger.cs: 
+System.InvalidCastException: Unable to cast object of type 'lhk.POS.Presentation.Models.OrderDisplay' to type 'lhk.POS.Core.Domain.Order'.
+   at lhk.POS.Presentation.Views.ReportView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Report\ReportView.cs:line 86
+2015-12-28 11:23:05,862 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:23:08,319 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:23:08,319 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:23:08,319 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:23:08,482 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:23:12,387 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:23:12,407 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:23:12,410 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:23:12,472 [ERROR] AppLogger.cs: 
+System.InvalidCastException: Unable to cast object of type 'lhk.POS.Presentation.Models.OrderDisplay' to type 'lhk.POS.Core.Domain.Order'.
+   at lhk.POS.Presentation.Views.ReportView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Report\ReportView.cs:line 86
+2015-12-28 11:23:25,233 [ERROR] AppLogger.cs: 
+System.InvalidCastException: Unable to cast object of type 'lhk.POS.Presentation.Models.OrderDisplay' to type 'lhk.POS.Core.Domain.Order'.
+   at lhk.POS.Presentation.Views.ReportView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Report\ReportView.cs:line 86
+2015-12-28 11:23:25,595 [ERROR] AppLogger.cs: 
+System.InvalidCastException: Unable to cast object of type 'lhk.POS.Presentation.Models.OrderDisplay' to type 'lhk.POS.Core.Domain.Order'.
+   at lhk.POS.Presentation.Views.ReportView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Report\ReportView.cs:line 86
+2015-12-28 11:23:26,080 [ERROR] AppLogger.cs: 
+System.InvalidCastException: Unable to cast object of type 'lhk.POS.Presentation.Models.OrderDisplay' to type 'lhk.POS.Core.Domain.Order'.
+   at lhk.POS.Presentation.Views.ReportView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Report\ReportView.cs:line 86
+2015-12-28 11:23:26,734 [ERROR] AppLogger.cs: 
+System.InvalidCastException: Unable to cast object of type 'lhk.POS.Presentation.Models.OrderDisplay' to type 'lhk.POS.Core.Domain.Order'.
+   at lhk.POS.Presentation.Views.ReportView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Report\ReportView.cs:line 86
+2015-12-28 11:23:45,766 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:23:45,787 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:23:45,800 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:23:45,847 [ERROR] AppLogger.cs: 
+System.InvalidCastException: Unable to cast object of type 'lhk.POS.Presentation.Models.OrderDisplay' to type 'lhk.POS.Core.Domain.Order'.
+   at lhk.POS.Presentation.Views.ReportView._dgvImportList_SelectionChanged(Object sender, EventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Report\ReportView.cs:line 86
+2015-12-28 11:34:36,620 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:34:57,002 [ERROR] AppLogger.cs: 
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_dbo.Customer'. Cannot insert duplicate key in object 'dbo.Customer'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__58()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__57()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreCommand(TransactionalBehavior transactionalBehavior, String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at lhk.POS.Data.PosDBContext.ExecuteSqlCommand(String sql, Nullable`1 timeout, Object[] parameters) in d:\PROJECT\pos-system\lhk.POS.Data\PosDBContext.cs:line 183
+   at lhk.POS.Data.SqlFileInstallation.ExecuteSqlFile(String path) in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 54
+   at lhk.POS.Data.SqlFileInstallation.InstallData() in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 33
+ClientConnectionId:c5f9539c-4b72-41d7-9573-17541abe1afb
+Error Number:2627,State:1,Class:14
+2015-12-28 11:34:57,083 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:34:57,084 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:34:57,084 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:34:57,200 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:38:00,239 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 11:38:00,242 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 11:38:00,316 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 11:38:03,175 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-28 11:38:03,216 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:39:09,881 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:50:11,254 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:50:13,364 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:50:13,365 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:50:13,365 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:50:13,484 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:53:39,833 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:53:39,835 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:54:03,281 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:54:05,360 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:54:05,372 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:54:05,372 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 11:54:05,519 [INFO] :: Main_Manager_Load: Main
+2015-12-28 11:54:14,605 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:54:14,617 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:55:02,327 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:55:02,339 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:55:11,960 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 11:55:11,971 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 12:01:06,037 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 12:01:08,113 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 12:01:08,123 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 12:01:08,124 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 12:01:15,066 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 12:01:15,077 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 12:01:15,091 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 12:01:15,091 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 12:01:15,249 [INFO] :: Main_Manager_Load: Main
+2015-12-28 12:01:20,194 [INFO] Getting all entities of lhk.POS.Core.Domain.Order - Found: 2.: lhk.POS.Common.Business.ReportBusiness
+2015-12-28 12:01:46,987 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 12:01:49,120 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 12:01:49,133 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 12:01:49,133 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 12:01:49,293 [INFO] :: Main_Manager_Load: Main
+2015-12-28 12:02:57,431 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 12:03:23,776 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.Data.SqlClient.SqlException (0x80131904): Cannot drop database "PosDB" because it is currently in use.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass2d.<DropDatabase>b__2b(DbConnection conn)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DropDatabase(SqlConnection sqlConnection, Nullable`1 commandTimeout, String databaseName)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.DeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 31
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+ClientConnectionId:b5ec1940-4f20-4214-8d3d-25f61257d16b
+Error Number:3702,State:4,Class:16
+2015-12-28 12:03:35,004 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 12:03:47,489 [ERROR] AppLogger.cs: 
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_dbo.Customer'. Cannot insert duplicate key in object 'dbo.Customer'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__58()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__57()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreCommand(TransactionalBehavior transactionalBehavior, String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at lhk.POS.Data.PosDBContext.ExecuteSqlCommand(String sql, Nullable`1 timeout, Object[] parameters) in d:\PROJECT\pos-system\lhk.POS.Data\PosDBContext.cs:line 183
+   at lhk.POS.Data.SqlFileInstallation.ExecuteSqlFile(String path) in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 54
+   at lhk.POS.Data.SqlFileInstallation.InstallData() in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 33
+ClientConnectionId:4730df92-9b0f-4fb5-9e4e-a254eafe3837
+Error Number:2627,State:1,Class:14
+2015-12-28 12:03:47,577 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 12:03:47,578 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 12:03:47,578 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 12:03:47,691 [INFO] :: Main_Manager_Load: Main
+2015-12-28 12:03:51,588 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 12:04:46,222 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 12:04:47,475 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 13:56:49,048 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 13:56:51,162 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 13:56:51,163 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 13:56:51,163 [INFO] LoginPresenter.cs: Finish validating user: thanhhuong
+2015-12-28 13:56:51,289 [INFO] :: Main_Manager_Load: Main
+2015-12-28 14:10:46,952 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 14:10:49,160 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 14:10:49,170 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 14:10:49,171 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 14:10:49,350 [INFO] :: Main_Manager_Load: Main
+2015-12-28 14:10:52,608 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 14:12:13,658 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 14:12:15,807 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 14:12:15,808 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 14:12:15,808 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 14:12:15,922 [INFO] :: Main_Manager_Load: Main
+2015-12-28 14:12:18,665 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 14:17:00,858 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 14:17:02,977 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 14:17:02,978 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 14:17:02,978 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 14:17:03,093 [INFO] :: Main_Manager_Load: Main
+2015-12-28 14:17:05,434 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 14:23:42,598 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 14:23:44,763 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 14:23:44,765 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 14:23:44,765 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 14:23:44,923 [INFO] :: Main_Manager_Load: Main
+2015-12-28 14:23:47,422 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 14:24:48,547 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 14:27:09,656 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 14:27:11,759 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 14:27:11,769 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 14:27:11,769 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 14:27:11,955 [INFO] :: Main_Manager_Load: Main
+2015-12-28 14:27:28,402 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 14:33:46,916 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 14:33:49,051 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 14:33:49,053 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 14:33:49,053 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 14:33:49,158 [INFO] :: Main_Manager_Load: Main
+2015-12-28 14:33:51,574 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Order not found.
+2015-12-28 17:30:13,843 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 17:30:16,303 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 17:30:16,304 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 17:30:16,304 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 17:30:16,430 [INFO] :: Main_Manager_Load: Main
+2015-12-28 17:34:29,830 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 17:34:32,132 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 17:34:32,133 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 17:34:32,133 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 17:34:32,269 [INFO] :: Main_Manager_Load: Main
+2015-12-28 17:34:53,709 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 17:34:56,375 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 17:34:56,376 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 17:34:56,376 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 17:34:56,508 [INFO] :: Main_Manager_Load: Main
+2015-12-28 17:35:09,788 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 17:45:42,705 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 17:45:44,848 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 17:45:44,850 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 17:45:44,850 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 17:45:44,956 [INFO] :: Main_Manager_Load: Main
+2015-12-28 17:45:46,250 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 17:45:46,270 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 17:46:17,929 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:17,940 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 1.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:17,941 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:17,942 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 1.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:17,942 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:17,942 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 1.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:31,690 [INFO] handle tsbAddNew: Main
+2015-12-28 17:46:39,626 [INFO] CustomerQuickAddView.cs: btnOk_Click
+2015-12-28 17:46:39,626 [INFO] CustomerPresenter.cs: InsertUpdateCustomer
+2015-12-28 17:46:46,895 [INFO] handle tsbCancel: Main
+2015-12-28 17:46:48,142 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:48,144 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:48,144 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:48,145 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:48,145 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:48,146 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:49,893 [DEBUG] HandleChooseCustomer
+2015-12-28 17:46:51,268 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:51,269 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:51,270 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:51,270 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:51,270 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:51,271 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:57,391 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 17:46:59,354 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:59,355 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:46:59,356 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:46:59,356 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:47:52,517 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:47:52,517 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 3.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:47:52,518 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:47:52,521 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 3.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:47:52,522 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:47:52,522 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 3.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:47:54,682 [DEBUG] HandleChooseCustomer
+2015-12-28 17:47:57,850 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:47:57,852 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 3.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:47:57,854 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:47:57,855 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 3.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:48:00,406 [DEBUG] HandleChooseCustomer
+2015-12-28 17:53:18,625 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:53:18,691 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 5.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:53:18,692 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:53:18,692 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 5.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:53:19,889 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 17:53:22,334 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:53:22,335 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 5.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:53:22,335 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:53:22,335 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 5.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:53:23,338 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 17:53:25,334 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:53:25,335 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 5.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:53:25,336 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:53:25,336 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 5.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:53:27,409 [DEBUG] HandleChooseCustomer
+2015-12-28 17:54:15,673 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:54:15,674 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 7.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:54:15,674 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:54:15,674 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 7.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:55:15,695 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 17:55:52,870 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:55:52,871 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 9.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:55:52,872 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:55:52,872 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 9.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:55:55,396 [DEBUG] HandleChooseCustomer
+2015-12-28 17:57:54,431 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 17:57:54,433 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 17:57:54,518 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:57:57,414 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:57:57,463 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:57:57,507 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:02,878 [INFO] handle tsbEdit: Main
+2015-12-28 17:58:12,302 [INFO] handle tsbSave: Main
+2015-12-28 17:58:12,303 [INFO] ProductPresenter.cs: InsertUpdateProduct
+2015-12-28 17:58:14,999 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-28 17:58:15,000 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:15,905 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-28 17:58:15,907 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:16,108 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-28 17:58:16,109 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:19,601 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:19,602 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:19,604 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:19,605 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:19,607 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:19,994 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:19,995 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:19,997 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:20,881 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:20,882 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:20,884 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:20,885 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:20,887 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:21,545 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:21,546 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:21,549 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:23,495 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:23,497 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:23,500 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:24,173 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:24,174 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:24,175 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:24,657 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:24,660 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:24,662 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:24,663 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:24,665 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:24,667 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:25,073 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:25,074 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:25,075 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:25,932 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:25,933 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:25,934 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:26,710 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-28 17:58:26,711 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:32,062 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-28 17:58:32,064 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:34,440 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:34,442 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:34,444 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:35,051 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-28 17:58:35,052 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:36,937 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-28 17:58:36,939 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:38,313 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:38,314 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:38,317 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:39,193 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:39,194 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:39,196 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:39,815 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:39,816 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:39,818 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:39,819 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:39,820 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:40,262 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:40,264 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:40,269 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:58:43,933 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:58:43,935 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,936 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,937 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,939 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,940 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,942 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,943 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,944 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,946 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,947 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,949 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,951 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,952 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,953 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,955 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,956 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,957 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,959 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,960 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,963 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,965 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,966 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,968 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,969 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,970 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,972 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,973 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,975 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,976 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,977 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,980 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,982 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,984 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,985 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,986 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,987 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,990 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,991 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,992 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,994 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:58:43,995 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:59:30,356 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:59:30,358 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:30,360 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:59:31,733 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:59:31,737 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:31,739 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:31,741 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:31,742 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:59:32,208 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:59:32,209 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:32,211 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:59:32,705 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:59:32,706 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:32,707 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:32,709 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:32,710 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:32,712 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:59:34,937 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:59:34,939 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:34,940 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:34,941 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:34,944 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:59:46,381 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 17:59:46,382 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 17:59:46,384 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:00:02,113 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-28 18:00:02,114 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 18:00:02,117 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:03:32,150 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:03:32,151 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:03:32,152 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:03:32,152 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:04:45,666 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 18:04:47,733 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 18:04:47,743 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 18:04:47,743 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 18:04:47,920 [INFO] :: Main_Manager_Load: Main
+2015-12-28 18:04:56,494 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:04:56,515 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:04:56,527 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:04:56,538 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:06:09,937 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 18:06:12,005 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 18:06:12,016 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 18:06:12,016 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 18:06:12,176 [INFO] :: Main_Manager_Load: Main
+2015-12-28 18:06:13,238 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 18:06:13,267 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 18:06:13,396 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-28 18:06:15,387 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 18:06:15,448 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 18:06:25,051 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:06:25,072 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:06:25,083 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:06:25,096 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:07:16,373 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 18:07:18,439 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 18:07:18,440 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 18:07:18,440 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 18:07:18,581 [INFO] :: Main_Manager_Load: Main
+2015-12-28 18:07:19,913 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 18:07:19,924 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 2.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 18:07:23,250 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:07:23,261 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:07:23,263 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:07:23,263 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:07:23,364 [ERROR] AppLogger.cs: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.Execute(MergeOption mergeOption)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.Order_131DAE916D04E43D9E70116936FB64E952EB0B645466CF66771574BD55791BCB.get_Customer()
+   at lhk.POS.Presentation.Presenters.CustomerPresenter.<ExecuteReport>b__2(Order order) in d:\PROJECT\pos-system\PosSystem\Presenters\CustomerPresenter.cs:line 111
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at lhk.POS.Presentation.Presenters.CustomerPresenter.ExecuteReport() in d:\PROJECT\pos-system\PosSystem\Presenters\CustomerPresenter.cs:line 109
+2015-12-28 18:07:27,522 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:07:27,524 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:07:27,524 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:07:27,525 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:07:27,525 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:07:27,526 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:07:33,261 [DEBUG] HandleChooseCustomer
+2015-12-28 18:07:33,275 [ERROR] AppLogger.cs: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.Execute(MergeOption mergeOption)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.Order_131DAE916D04E43D9E70116936FB64E952EB0B645466CF66771574BD55791BCB.get_Customer()
+   at lhk.POS.Presentation.Presenters.CustomerPresenter.<ExecuteReport>b__2(Order order) in d:\PROJECT\pos-system\PosSystem\Presenters\CustomerPresenter.cs:line 111
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at lhk.POS.Presentation.Presenters.CustomerPresenter.ExecuteReport() in d:\PROJECT\pos-system\PosSystem\Presenters\CustomerPresenter.cs:line 109
+2015-12-28 18:07:38,986 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:07:38,987 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:07:38,987 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:07:38,988 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:07:38,990 [ERROR] AppLogger.cs: 
+System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.InvalidOperationException: There is already an open DataReader associated with this Command which must be closed first.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   at System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.Execute(MergeOption mergeOption)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Load(MergeOption mergeOption)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   at System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   at System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__2(TProxy proxy, TItem item)
+   at System.Data.Entity.DynamicProxies.Order_131DAE916D04E43D9E70116936FB64E952EB0B645466CF66771574BD55791BCB.get_Customer()
+   at lhk.POS.Presentation.Presenters.CustomerPresenter.<ExecuteReport>b__2(Order order) in d:\PROJECT\pos-system\PosSystem\Presenters\CustomerPresenter.cs:line 111
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at lhk.POS.Presentation.Presenters.CustomerPresenter.ExecuteReport() in d:\PROJECT\pos-system\PosSystem\Presenters\CustomerPresenter.cs:line 109
+2015-12-28 18:08:01,536 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 18:08:03,677 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 18:08:03,687 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 18:08:03,687 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 18:08:03,847 [INFO] :: Main_Manager_Load: Main
+2015-12-28 18:08:09,334 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:08:09,357 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:08:09,371 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:08:09,386 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:09:40,526 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 18:09:42,558 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 18:09:42,567 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 18:09:42,567 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 18:09:42,726 [INFO] :: Main_Manager_Load: Main
+2015-12-28 18:09:48,012 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:09:48,038 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:09:48,050 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:09:48,060 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness

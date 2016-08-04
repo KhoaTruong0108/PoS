@@ -1,0 +1,58 @@
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\create_sample_data.sql
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\Models\Sale\OrderInvoice.rdlc
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.Pos.Manager.exe.config
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.Pos.Manager.exe
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.Pos.Manager.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Common.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Data.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\POS.Presentation.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\Autofac.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Common.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Core.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Data.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\POS.Presentation.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\Autofac.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.csprojResolveAssemblyReference.cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.Properties.Resources.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.csproj.GenerateResource.Cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.exe
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\EntityFramework.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\EntityFramework.SqlServer.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\log4net.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\PasswordUtility.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\EntityFramework.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\EntityFramework.SqlServer.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\PosSystem.InputProductTest.resources
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\create_sample_data.sql
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\Models\Sale\OrderInvoice.rdlc
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.Pos.Manager.exe.config
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.Pos.Manager.exe
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.Pos.Manager.pdb
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\EntityFramework.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Common.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Data.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\log4net.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\PasswordUtility.Core.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\POS.Presentation.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\ExistingDatabaseConverter.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\Autofac.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\AutoMapper.dll
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Common.pdb
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\lhk.POS.Data.pdb
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\POS.Presentation.pdb
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\EntityFramework.xml
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\ExistingDatabaseConverter.pdb
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\Autofac.xml
+D:\PROJECT\pos-system\lhk.Pos.Manager\bin\Debug\AutoMapper.xml
+D:\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\PosSystem.InputProductTest.resources
+D:\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.Properties.Resources.resources
+D:\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.csproj.GenerateResource.Cache
+D:\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.exe
+D:\PROJECT\pos-system\lhk.Pos.Manager\obj\Debug\lhk.Pos.Manager.pdb

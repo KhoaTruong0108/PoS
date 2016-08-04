@@ -1,0 +1,82 @@
+2015-12-27 00:09:07,002 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-27 00:09:59,509 [ERROR] AppLogger.cs: 
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_dbo.Customer'. Cannot insert duplicate key in object 'dbo.Customer'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__58()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__57()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreCommand(TransactionalBehavior transactionalBehavior, String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at lhk.POS.Data.PosDBContext.ExecuteSqlCommand(String sql, Nullable`1 timeout, Object[] parameters) in d:\PROJECT\pos-system\lhk.POS.Data\PosDBContext.cs:line 183
+   at lhk.POS.Data.SqlFileInstallation.ExecuteSqlFile(String path) in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 54
+   at lhk.POS.Data.SqlFileInstallation.InstallData() in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 33
+ClientConnectionId:637dcf20-3e82-4f95-80dc-44b07ffa94c0
+Error Number:2627,State:1,Class:14
+2015-12-27 00:09:59,602 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-27 00:09:59,614 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-27 00:09:59,614 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-27 00:09:59,781 [INFO] :: Main_Manager_Load: Main
+2015-12-27 00:10:02,034 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-27 00:10:02,057 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-27 00:10:03,563 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 0.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-27 00:10:05,636 [INFO] handle tsbAddNew: Main
+2015-12-27 00:10:09,499 [INFO] handle tsbCancel: Main
+2015-12-27 00:10:14,147 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-27 00:10:14,169 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-27 00:10:14,282 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-27 00:10:19,229 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-27 00:10:19,258 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-27 00:10:19,324 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-27 00:10:22,325 [INFO] ProductPresenter.cs: LoadProductList
+2015-12-27 00:10:22,369 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-27 00:10:22,432 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-27 00:10:27,647 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-27 00:10:27,669 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-27 00:10:43,794 [INFO] handle tsbAddNew: Main
+2015-12-27 00:10:46,387 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-27 00:10:46,420 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-27 00:10:46,431 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-27 00:10:46,444 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-27 00:10:59,668 [INFO] handle tsbSave: Main
+2015-12-27 00:11:05,413 [INFO] ImportProductPresenter.cs: InsertUpdateProduct
+2015-12-27 00:11:10,886 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-27 00:12:30,347 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-27 00:12:32,718 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-27 00:12:32,728 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-27 00:12:32,728 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-27 00:12:32,887 [INFO] :: Main_Manager_Load: Main
+2015-12-27 00:12:34,243 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-27 00:12:34,371 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-27 00:12:37,365 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-27 00:13:01,633 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-27 00:14:36,877 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-27 00:14:39,233 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-27 00:14:39,234 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-27 00:14:39,234 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-27 00:14:39,374 [INFO] :: Main_Manager_Load: Main
+2015-12-27 00:14:40,520 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-27 00:14:40,533 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-27 00:14:41,631 [INFO] Getting all entities of lhk.POS.Core.Domain.Import - Found: 1.: lhk.POS.Common.Business.ImportProductBusiness
+2015-12-27 00:14:53,851 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-27 00:14:53,852 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-27 00:14:53,922 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 39.: lhk.POS.Common.Business.CategoryBusiness
+2015-12-27 00:14:55,593 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-27 00:14:55,594 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-27 00:15:08,094 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-27 00:15:08,097 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-27 00:15:14,619 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-12-27 00:15:14,664 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness

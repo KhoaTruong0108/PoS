@@ -1,0 +1,125 @@
+2015-12-09 14:21:14,207 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-09 14:21:16,904 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.NotSupportedException: Model compatibility cannot be checked because the database does not contain model metadata. Model compatibility can only be checked for databases created using Code First or Code First Migrations.
+   at System.Data.Entity.Internal.ModelCompatibilityChecker.CompatibleWithModel(InternalContext internalContext, ModelHashCalculator modelHashCalculator, Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Internal.InternalContext.CompatibleWithModel(Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.CompatibleWithModel(Boolean throwIfNoMetadata)
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 28
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-09 14:21:16,921 [ERROR] LoginPresenter.cs: Error occurs when validating user.
+System.NotSupportedException: Model compatibility cannot be checked because the database does not contain model metadata. Model compatibility can only be checked for databases created using Code First or Code First Migrations.
+   at System.Data.Entity.Internal.ModelCompatibilityChecker.CompatibleWithModel(InternalContext internalContext, ModelHashCalculator modelHashCalculator, Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Internal.InternalContext.CompatibleWithModel(Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.CompatibleWithModel(Boolean throwIfNoMetadata)
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 28
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at lhk.POS.Common.Business.UserBusiness.GetUser(String userName, String role, Boolean isDeleted) in d:\PROJECT\pos-system\lhk.POS.Business\Business\UserBusiness.cs:line 27
+   at lhk.POS.Presentation.Presenters.LoginPresenter.ValidateUser(String userName, String password, String role) in d:\PROJECT\pos-system\PosSystem\Presenters\LoginPresenter.cs:line 79
+2015-12-09 14:21:37,873 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-09 14:21:37,901 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.NotSupportedException: Model compatibility cannot be checked because the database does not contain model metadata. Model compatibility can only be checked for databases created using Code First or Code First Migrations.
+   at System.Data.Entity.Internal.ModelCompatibilityChecker.CompatibleWithModel(InternalContext internalContext, ModelHashCalculator modelHashCalculator, Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Internal.InternalContext.CompatibleWithModel(Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.CompatibleWithModel(Boolean throwIfNoMetadata)
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 28
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-09 14:21:37,908 [ERROR] LoginPresenter.cs: Error occurs when validating user.
+System.NotSupportedException: Model compatibility cannot be checked because the database does not contain model metadata. Model compatibility can only be checked for databases created using Code First or Code First Migrations.
+   at System.Data.Entity.Internal.ModelCompatibilityChecker.CompatibleWithModel(InternalContext internalContext, ModelHashCalculator modelHashCalculator, Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Internal.InternalContext.CompatibleWithModel(Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.CompatibleWithModel(Boolean throwIfNoMetadata)
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 28
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at lhk.POS.Common.Business.UserBusiness.GetUser(String userName, String role, Boolean isDeleted) in d:\PROJECT\pos-system\lhk.POS.Business\Business\UserBusiness.cs:line 27
+   at lhk.POS.Presentation.Presenters.LoginPresenter.ValidateUser(String userName, String password, String role) in d:\PROJECT\pos-system\PosSystem\Presenters\LoginPresenter.cs:line 79
+2015-12-09 14:21:42,823 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-09 14:21:42,830 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.NotSupportedException: Model compatibility cannot be checked because the database does not contain model metadata. Model compatibility can only be checked for databases created using Code First or Code First Migrations.
+   at System.Data.Entity.Internal.ModelCompatibilityChecker.CompatibleWithModel(InternalContext internalContext, ModelHashCalculator modelHashCalculator, Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Internal.InternalContext.CompatibleWithModel(Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.CompatibleWithModel(Boolean throwIfNoMetadata)
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 28
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-09 14:21:42,837 [ERROR] LoginPresenter.cs: Error occurs when validating user.
+System.NotSupportedException: Model compatibility cannot be checked because the database does not contain model metadata. Model compatibility can only be checked for databases created using Code First or Code First Migrations.
+   at System.Data.Entity.Internal.ModelCompatibilityChecker.CompatibleWithModel(InternalContext internalContext, ModelHashCalculator modelHashCalculator, Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Internal.InternalContext.CompatibleWithModel(Boolean throwIfNoMetadata, DatabaseExistenceState existenceState)
+   at System.Data.Entity.Database.CompatibleWithModel(Boolean throwIfNoMetadata)
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 28
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at lhk.POS.Common.Business.UserBusiness.GetUser(String userName, String role, Boolean isDeleted) in d:\PROJECT\pos-system\lhk.POS.Business\Business\UserBusiness.cs:line 27
+   at lhk.POS.Presentation.Presenters.LoginPresenter.ValidateUser(String userName, String password, String role) in d:\PROJECT\pos-system\PosSystem\Presenters\LoginPresenter.cs:line 79
+2015-12-09 14:22:28,937 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-09 14:25:40,074 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-09 14:25:55,977 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-09 14:25:55,987 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-09 14:25:55,987 [INFO] LoginPresenter.cs: Finish validating user: we

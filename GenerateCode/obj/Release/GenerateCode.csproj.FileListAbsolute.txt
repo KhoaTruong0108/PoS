@@ -1,0 +1,9 @@
+D:\PROJECT\pos-system\GenerateCode\bin\Release\GenerateCode.exe.config
+D:\PROJECT\pos-system\GenerateCode\bin\Release\GenerateCode.exe
+D:\PROJECT\pos-system\GenerateCode\bin\Release\GenerateCode.pdb
+D:\PROJECT\pos-system\GenerateCode\bin\Release\lhk.POS.Core.dll
+D:\PROJECT\pos-system\GenerateCode\bin\Release\log4net.dll
+D:\PROJECT\pos-system\GenerateCode\bin\Release\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\GenerateCode\obj\Release\GenerateCode.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\GenerateCode\obj\Release\GenerateCode.exe
+D:\PROJECT\pos-system\GenerateCode\obj\Release\GenerateCode.pdb

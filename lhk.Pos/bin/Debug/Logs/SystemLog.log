@@ -1,0 +1,1348 @@
+2015-12-28 10:58:06,440 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 10:58:09,379 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 10:58:09,379 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 10:58:09,379 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 10:58:11,318 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-28 10:58:13,730 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-28 10:58:14,643 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-28 10:58:14,841 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-28 10:58:15,020 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-28 11:00:02,040 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-28 11:00:35,321 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:00:37,756 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:00:37,756 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:00:37,756 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 11:00:39,549 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:39,680 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:39,680 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:39,680 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:40,235 [DEBUG] HandleChooseProduct
+2015-12-28 11:00:41,097 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:41,116 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:41,117 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:41,118 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:41,461 [DEBUG] HandleChooseProduct
+2015-12-28 11:00:42,366 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:42,381 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:42,383 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:42,384 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:42,784 [DEBUG] HandleChooseProduct
+2015-12-28 11:00:44,798 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:44,810 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:44,817 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:44,819 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:45,500 [DEBUG] HandleChooseProduct
+2015-12-28 11:00:46,787 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 11:00:56,762 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 11:00:56,985 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:00:57,016 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:00:57,016 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:00:57,084 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 11:00:58,850 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:58,865 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:58,865 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:00:58,865 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:00:59,268 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:00,031 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:00,046 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:00,047 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:00,048 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:00,447 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:01,112 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:01,126 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:01,129 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:01,130 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:01,282 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:03,828 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:03,840 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:03,842 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:03,843 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:04,389 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:08,161 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:08,161 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:08,177 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:08,177 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:09,786 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:15,561 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 11:01:20,707 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 11:01:20,713 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:01:20,714 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:01:20,714 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:01:20,714 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:01:20,715 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:01:20,716 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 11:01:24,556 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:24,593 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:24,593 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:24,593 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:24,978 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:25,735 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:25,751 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:25,752 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:25,753 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:26,087 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:26,575 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:26,587 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:26,590 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:26,592 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:26,888 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:27,731 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:27,759 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:27,761 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:27,763 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:27,965 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:29,904 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:29,918 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:29,919 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:29,920 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:30,068 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:30,649 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:30,660 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:30,662 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:01:30,663 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:01:30,798 [DEBUG] HandleChooseProduct
+2015-12-28 11:01:33,758 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 11:01:37,443 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 11:01:37,459 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:01:37,459 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:01:37,459 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: An entity object cannot be referenced by multiple instances of IEntityChangeTracker.
+   at System.Data.Entity.Core.Objects.ObjectContext.VerifyContextForAddOrAttach(IEntityWrapper wrappedEntity)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddSingleObject(EntitySet entitySet, IEntityWrapper wrappedEntity, String argumentName)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference.AddEntityToObjectStateManager(IEntityWrapper wrappedEntity, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.AddGraphToObjectStateManager(IEntityWrapper wrappedEntity, Boolean relationshipAlreadyExists, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.IncludeEntity(IEntityWrapper wrappedEntity, Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.EntityReference`1.Include(Boolean addRelationshipAsUnchanged, Boolean doAttach)
+   at System.Data.Entity.Core.Objects.DataClasses.RelationshipManager.AddRelatedEntitiesToObjectStateManager(Boolean doAttach)
+   at System.Data.Entity.Core.Objects.ObjectContext.AddObject(String entitySetName, Object entity)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.<>c__DisplayClassd.<Add>b__c()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.ActOnSet(Action action, EntityState newState, Object entity, String methodName)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Add(Object entity)
+   at System.Data.Entity.DbSet`1.Add(TEntity entity)
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 47
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:01:37,459 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 11:30:49,366 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:31:11,581 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.Data.SqlClient.SqlException (0x80131904): Cannot drop database "PosDB" because it is currently in use.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass2d.<DropDatabase>b__2b(DbConnection conn)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DropDatabase(SqlConnection sqlConnection, Nullable`1 commandTimeout, String databaseName)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.DeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 31
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+ClientConnectionId:45b57177-6fd7-4541-bc83-4b835d495e4c
+Error Number:3702,State:4,Class:16
+2015-12-28 11:31:31,741 [ERROR] LoginPresenter.cs: Error occurs when validating user.
+System.Data.SqlClient.SqlException (0x80131904): Cannot drop database "PosDB" because it is currently in use.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass2d.<DropDatabase>b__2b(DbConnection conn)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DropDatabase(SqlConnection sqlConnection, Nullable`1 commandTimeout, String databaseName)
+   at System.Data.Entity.SqlServer.SqlProviderServices.DbDeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Common.DbProviderServices.DeleteDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   at System.Data.Entity.Core.Objects.ObjectContext.DeleteDatabase()
+   at System.Data.Entity.Internal.DatabaseOperations.DeleteIfExists(ObjectContext objectContext)
+   at System.Data.Entity.Database.Delete()
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 31
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at lhk.POS.Common.Business.UserBusiness.GetUser(String userName, String role, Boolean isDeleted) in d:\PROJECT\pos-system\lhk.POS.Business\Business\UserBusiness.cs:line 27
+   at lhk.POS.Presentation.Presenters.LoginPresenter.ValidateUser(String userName, String password, String role) in d:\PROJECT\pos-system\PosSystem\Presenters\LoginPresenter.cs:line 79
+ClientConnectionId:3c3d9635-81bb-44c8-b5b2-9c85753e7246
+Error Number:3702,State:4,Class:16
+2015-12-28 11:31:35,536 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:31:38,256 [ERROR] GenericBuiness.cs: lhk.POS.Common.Business.UserBusiness
+System.InvalidOperationException: No connection string named 'DbFirstContext' could be found in the application config file.
+   at System.Data.Entity.Internal.LazyInternalConnection.get_ConnectionHasModel()
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.CreateObjectContextForDdlOps()
+   at System.Data.Entity.Database.Exists()
+   at lhk.POS.Data.ExistedDbInstallation.get_isConnectToExistedDB() in d:\PROJECT\pos-system\lhk.POS.Data\ExistedDbInstallation.cs:line 21
+   at lhk.POS.Data.Initializers.DataBaseInitializer`1.InitializeDatabase(TContext context) in d:\PROJECT\pos-system\lhk.POS.Data\Initializers\DataBaseInitializer.cs:line 41
+   at System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at lhk.POS.Common.Business.GenericBuiness`1.GetAll() in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 100
+2015-12-28 11:31:38,408 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 11:31:38,408 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 11:32:26,060 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:32:28,481 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 0.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:32:28,481 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 11:32:28,481 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 11:33:01,579 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:33:01,579 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 0.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:33:01,579 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 11:33:01,579 [INFO] LoginPresenter.cs: Finish validating user: staff
+2015-12-28 11:33:02,587 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:33:02,588 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 0.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:33:02,588 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 11:33:02,588 [INFO] LoginPresenter.cs: Finish validating user: staff
+2015-12-28 11:33:04,679 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:33:04,680 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 0.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:33:04,680 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 11:33:04,680 [INFO] LoginPresenter.cs: Finish validating user: staff
+2015-12-28 11:38:19,250 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:38:21,340 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:38:21,341 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:38:21,341 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 11:38:24,878 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-28 11:38:25,998 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 87
+2015-12-28 11:38:49,391 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:38:51,605 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:38:51,606 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:38:51,606 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 11:38:53,205 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:38:53,282 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:38:53,284 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:38:53,286 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:38:53,708 [DEBUG] HandleChooseProduct
+2015-12-28 11:38:54,402 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:38:54,425 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:38:54,427 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:38:54,428 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:38:54,791 [DEBUG] HandleChooseProduct
+2015-12-28 11:38:55,375 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:38:55,386 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:38:55,387 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:38:55,388 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:38:55,716 [DEBUG] HandleChooseProduct
+2015-12-28 11:38:57,406 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 11:39:01,095 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 11:39:01,326 [ERROR] AppLogger.cs: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.OrderItem_dbo.Order_OrderId". The conflict occurred in database "PosDB", table "dbo.Order", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 49
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:39:01,336 [ERROR] AppLogger.cs: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.OrderItem_dbo.Order_OrderId". The conflict occurred in database "PosDB", table "dbo.Order", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 49
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:39:01,338 [ERROR] AppLogger.cs: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.OrderItem_dbo.Order_OrderId". The conflict occurred in database "PosDB", table "dbo.Order", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 49
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 11:39:01,401 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 11:49:25,286 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 11:49:27,416 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 11:49:27,418 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 11:49:27,418 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 11:49:29,242 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:49:29,328 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:49:29,330 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:49:29,331 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:49:29,418 [DEBUG] HandleChooseProduct
+2015-12-28 11:49:30,415 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:49:30,425 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:49:30,427 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:49:30,428 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:49:30,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 11:49:30,677 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 11:49:33,609 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 115
+2015-12-28 11:49:34,707 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:49:34,722 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:49:34,724 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:49:34,725 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:49:35,091 [DEBUG] HandleChooseProduct
+2015-12-28 11:49:35,790 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:49:35,802 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:49:35,804 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 11:49:35,805 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 11:49:35,978 [DEBUG] HandleChooseProduct
+2015-12-28 11:49:40,318 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 11:49:44,282 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 11:49:44,570 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 12:04:13,870 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 12:04:16,013 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 12:04:16,013 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 12:04:16,013 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 12:04:17,651 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:17,739 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:17,740 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:17,742 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:17,851 [DEBUG] HandleChooseProduct
+2015-12-28 12:04:18,782 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:18,820 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:18,821 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:18,822 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:19,118 [DEBUG] HandleChooseProduct
+2015-12-28 12:04:20,544 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:20,559 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:20,560 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:20,562 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:20,698 [DEBUG] HandleChooseProduct
+2015-12-28 12:04:22,078 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 12:04:30,560 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 12:04:30,790 [ERROR] AppLogger.cs: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Order_dbo.Customer_CustomerId". The conflict occurred in database "PosDB", table "dbo.Customer", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 49
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 12:04:30,882 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 12:04:33,104 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:33,119 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:33,120 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:33,121 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:33,268 [DEBUG] HandleChooseProduct
+2015-12-28 12:04:34,255 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:34,265 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:34,266 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:34,267 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:34,417 [DEBUG] HandleChooseProduct
+2015-12-28 12:04:35,197 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:35,208 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:35,209 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:04:35,211 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:04:35,369 [DEBUG] HandleChooseProduct
+2015-12-28 12:04:39,998 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 12:04:43,667 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 12:04:43,671 [ERROR] AppLogger.cs: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Order_dbo.Customer_CustomerId". The conflict occurred in database "PosDB", table "dbo.Customer", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 49
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 12:04:43,674 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 12:07:18,013 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 12:07:20,371 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 12:07:20,380 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 12:07:20,380 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 12:07:26,503 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:07:26,587 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:07:26,600 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:07:26,611 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:07:28,682 [DEBUG] HandleChooseProduct
+2015-12-28 12:07:29,577 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 12:07:34,829 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 12:08:43,955 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 12:08:46,077 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 12:08:46,087 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 12:08:46,087 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 12:08:49,516 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 12:08:49,533 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 12:08:49,543 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 12:08:49,543 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 12:08:54,129 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:08:54,210 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:08:54,223 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 12:08:54,234 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 12:08:56,057 [DEBUG] HandleChooseProduct
+2015-12-28 12:08:56,881 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 12:09:00,260 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 12:09:16,901 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 13:34:40,156 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 13:34:42,256 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 13:34:42,266 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 13:34:42,266 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 13:34:48,216 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:34:48,312 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:34:48,329 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:34:48,340 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:34:50,373 [DEBUG] HandleChooseProduct
+2015-12-28 13:34:51,510 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:34:51,560 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:34:51,572 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:34:51,584 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:34:51,771 [DEBUG] HandleChooseProduct
+2015-12-28 13:34:52,638 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:34:52,670 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:34:52,682 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:34:52,695 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:34:52,840 [DEBUG] HandleChooseProduct
+2015-12-28 13:34:54,122 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 13:34:58,669 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 13:35:36,073 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 13:35:38,268 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 13:35:38,280 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 13:35:38,280 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 13:35:40,231 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:35:40,318 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:35:40,331 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:35:40,342 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:35:40,433 [DEBUG] HandleChooseProduct
+2015-12-28 13:35:41,528 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 13:35:44,765 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 13:37:43,710 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 13:42:00,289 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 13:42:59,708 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 13:43:01,985 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 0.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 13:43:01,986 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 13:43:01,986 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 13:43:53,632 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 13:44:13,870 [ERROR] AppLogger.cs: 
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_dbo.Customer'. Cannot insert duplicate key in object 'dbo.Customer'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__58()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__57()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreCommand(TransactionalBehavior transactionalBehavior, String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at lhk.POS.Data.PosDBContext.ExecuteSqlCommand(String sql, Nullable`1 timeout, Object[] parameters) in d:\PROJECT\pos-system\lhk.POS.Data\PosDBContext.cs:line 183
+   at lhk.POS.Data.SqlFileInstallation.ExecuteSqlFile(String path) in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 54
+   at lhk.POS.Data.SqlFileInstallation.InstallData() in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 33
+ClientConnectionId:32374c24-1383-4542-b774-d4a51f2b9800
+Error Number:2627,State:1,Class:14
+2015-12-28 13:44:13,972 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 13:44:13,973 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 13:44:13,973 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 13:51:25,209 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:51:25,384 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:51:25,387 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:51:25,398 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:51:26,039 [DEBUG] HandleChooseProduct
+2015-12-28 13:51:27,485 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 13:51:31,116 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 13:51:31,143 [ERROR] AppLogger.cs: 
+System.Data.Entity.Infrastructure.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_dbo.Order_dbo.Customer_CustomerId". The conflict occurred in database "PosDB", table "dbo.Customer", column 'Id'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<Reader>b__c(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Entity.Core.Mapping.Update.Internal.DynamicUpdateCommand.Execute(Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at lhk.POS.Data.EfRepository`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 49
+   at lhk.POS.Common.Business.GenericBuiness`1.Insert(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 28
+2015-12-28 13:51:31,169 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 13:52:03,896 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 13:52:06,076 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 13:52:06,086 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 13:52:06,086 [INFO] LoginPresenter.cs: Finish validating user: Nhanvien
+2015-12-28 13:52:08,017 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:52:08,108 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:52:08,121 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:52:08,131 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:52:08,506 [DEBUG] HandleChooseProduct
+2015-12-28 13:52:09,109 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:52:09,160 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:52:09,170 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:52:09,181 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:52:09,333 [DEBUG] HandleChooseProduct
+2015-12-28 13:52:10,641 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 13:52:13,749 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 13:53:33,074 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 13:53:35,178 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 13:53:35,188 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 13:53:35,189 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 13:53:37,157 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:53:37,244 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:53:37,257 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:53:37,276 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:53:37,363 [DEBUG] HandleChooseProduct
+2015-12-28 13:53:38,422 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:53:38,468 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:53:38,484 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 13:53:38,494 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 13:53:38,900 [DEBUG] HandleChooseProduct
+2015-12-28 13:53:40,094 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 13:53:44,484 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 13:53:49,106 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 14:24:28,900 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 14:24:31,135 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 14:24:31,137 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 14:24:31,137 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 14:24:33,787 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:33,868 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:33,869 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:33,871 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:34,044 [DEBUG] HandleChooseProduct
+2015-12-28 14:24:34,923 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:34,936 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:34,938 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:34,960 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:35,159 [DEBUG] HandleChooseProduct
+2015-12-28 14:24:36,651 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:36,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:36,669 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:36,670 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:36,812 [DEBUG] HandleChooseProduct
+2015-12-28 14:24:37,476 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:37,490 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:37,491 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:37,492 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:37,642 [DEBUG] HandleChooseProduct
+2015-12-28 14:24:38,351 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:38,371 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:38,373 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:38,374 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:38,514 [DEBUG] HandleChooseProduct
+2015-12-28 14:24:38,838 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:38,849 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:38,851 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:24:38,852 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:24:39,010 [DEBUG] HandleChooseProduct
+2015-12-28 14:24:40,553 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 14:24:45,285 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 14:24:45,300 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 14:24:45,568 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 14:46:17,298 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 14:46:19,855 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 14:46:19,855 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 14:46:19,855 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 14:46:28,429 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:46:28,513 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:46:28,515 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:46:28,517 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:46:28,629 [DEBUG] HandleChooseProduct
+2015-12-28 14:46:32,703 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:46:32,738 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:46:32,740 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 14:46:32,741 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 14:46:34,946 [DEBUG] HandleChooseProduct
+2015-12-28 14:46:36,981 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 14:46:41,939 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 14:46:41,959 [INFO] GenericBuiness.cs: Entity of lhk.POS.Core.Domain.Customer not found.
+2015-12-28 14:46:42,282 [ERROR] AppLogger.cs: 
+System.Reflection.TargetException: Non-static method requires a target.
+   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, BindingFlags invokeAttr, Binder binder, Object[] index, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.SetValue(Object obj, Object value, Object[] index)
+   at System.Reflection.PropertyInfo.SetValue(Object obj, Object value)
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 47
+2015-12-28 15:26:43,417 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 15:26:43,417 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 1.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 15:26:43,417 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 15:26:43,417 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 1.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 15:26:45,193 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 15:26:45,205 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 15:26:55,410 [INFO] CustomerQuickAddView.cs: btnOk_Click
+2015-12-28 15:26:55,410 [INFO] CustomerPresenter.cs: InsertUpdateCustomer
+2015-12-28 15:27:01,518 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:01,534 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:01,534 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:01,534 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:01,730 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 15:27:01,731 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 15:27:04,682 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 115
+2015-12-28 15:27:06,559 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:06,580 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:06,581 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:06,583 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:06,926 [DEBUG] HandleChooseProduct
+2015-12-28 15:27:07,908 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:07,925 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:07,926 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:07,927 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:08,559 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 15:27:08,560 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 15:27:10,503 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 115
+2015-12-28 15:27:11,463 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:11,478 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:11,479 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:11,481 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:11,902 [DEBUG] HandleChooseProduct
+2015-12-28 15:27:12,601 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:12,618 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:12,620 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 15:27:12,621 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 15:27:12,879 [DEBUG] HandleChooseProduct
+2015-12-28 15:27:13,933 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 15:27:17,677 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 15:27:17,724 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: The property 'Id' is part of the object's key information and cannot be modified. 
+   at System.Data.Entity.Core.Objects.EntityEntry.DetectChangesInProperty(Int32 ordinal, Boolean detectOnlyComplexProperties, Boolean detectOnly)
+   at System.Data.Entity.Core.Objects.EntityEntry.DetectChangesInProperties(Boolean detectOnlyComplexProperties)
+   at System.Data.Entity.Core.Objects.ObjectStateManager.DetectChangesInScalarAndComplexProperties(IList`1 entries)
+   at System.Data.Entity.Core.Objects.ObjectStateManager.DetectChanges()
+   at System.Data.Entity.Core.Objects.ObjectContext.DetectChanges()
+   at System.Data.Entity.Internal.InternalContext.DetectChanges(Boolean force)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at lhk.POS.Data.EfRepository`1.GetById(Object id) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 37
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 43
+2015-12-28 15:27:34,956 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 15:27:34,956 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 3.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 15:27:34,956 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 15:27:34,956 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 3.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 15:29:24,234 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 15:30:33,863 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 15:30:44,562 [ERROR] AppLogger.cs: 
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_dbo.Customer'. Cannot insert duplicate key in object 'dbo.Customer'. The duplicate key value is (1).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   at System.Data.Entity.Internal.InterceptableDbCommand.ExecuteNonQuery()
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__58()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass59.<ExecuteStoreCommand>b__57()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteStoreCommand(TransactionalBehavior transactionalBehavior, String commandText, Object[] parameters)
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at lhk.POS.Data.PosDBContext.ExecuteSqlCommand(String sql, Nullable`1 timeout, Object[] parameters) in d:\PROJECT\pos-system\lhk.POS.Data\PosDBContext.cs:line 183
+   at lhk.POS.Data.SqlFileInstallation.ExecuteSqlFile(String path) in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 54
+   at lhk.POS.Data.SqlFileInstallation.InstallData() in d:\PROJECT\pos-system\lhk.POS.Data\SqlFileInstallation.cs:line 33
+ClientConnectionId:0c3ec9d1-63d1-4634-9e7f-dd9231dc253f
+Error Number:2627,State:1,Class:14
+2015-12-28 15:30:44,678 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 15:30:44,678 [INFO] LoginPresenter.cs: User does not exist.
+2015-12-28 15:30:44,678 [INFO] LoginPresenter.cs: Finish validating user: supervisor
+2015-12-28 17:47:21,378 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 17:47:23,540 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 17:47:23,541 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 17:47:23,541 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 17:47:26,830 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:47:26,847 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:47:26,848 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:47:26,848 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 2.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:47:29,558 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:47:29,666 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:47:29,667 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:47:29,668 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:47:30,183 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 9.: lhk.POS.Common.Business.UnitBusiness
+2015-12-28 17:47:30,193 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 1.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-12-28 17:47:32,912 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 115
+2015-12-28 17:47:34,778 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:47:34,795 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:47:34,823 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:47:34,824 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:47:35,309 [DEBUG] HandleChooseProduct
+2015-12-28 17:47:36,136 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:47:36,157 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:47:36,159 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:47:36,160 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:47:36,799 [DEBUG] HandleChooseProduct
+2015-12-28 17:47:38,043 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:47:38,057 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:47:38,058 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:47:38,060 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:47:38,476 [DEBUG] HandleChooseProduct
+2015-12-28 17:47:40,798 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 17:47:44,434 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 17:47:44,698 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: The property 'Id' is part of the object's key information and cannot be modified. 
+   at System.Data.Entity.Core.Objects.EntityEntry.DetectChangesInProperty(Int32 ordinal, Boolean detectOnlyComplexProperties, Boolean detectOnly)
+   at System.Data.Entity.Core.Objects.EntityEntry.DetectChangesInProperties(Boolean detectOnlyComplexProperties)
+   at System.Data.Entity.Core.Objects.ObjectStateManager.DetectChangesInScalarAndComplexProperties(IList`1 entries)
+   at System.Data.Entity.Core.Objects.ObjectStateManager.DetectChanges()
+   at System.Data.Entity.Core.Objects.ObjectContext.DetectChanges()
+   at System.Data.Entity.Internal.InternalContext.DetectChanges(Boolean force)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at lhk.POS.Data.EfRepository`1.GetById(Object id) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 37
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 43
+2015-12-28 17:49:00,877 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 17:49:02,987 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 17:49:02,998 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 17:49:02,998 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 17:49:09,009 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:49:09,039 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 3.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:49:09,051 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:49:09,061 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 3.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:49:19,794 [INFO] CustomerQuickAddView.cs: btnOk_Click
+2015-12-28 17:49:29,320 [INFO] CustomerPresenter.cs: InsertUpdateCustomer
+2015-12-28 17:50:41,410 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:50:41,500 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:50:41,511 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:50:41,522 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:50:42,507 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 115
+2015-12-28 17:50:44,186 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:50:44,223 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:50:44,236 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:50:44,247 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:50:44,406 [DEBUG] HandleChooseProduct
+2015-12-28 17:50:45,125 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 17:50:48,660 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 17:53:36,012 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 17:53:38,205 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 17:53:38,206 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 17:53:38,206 [INFO] LoginPresenter.cs: Finish validating user: Nhanvien
+2015-12-28 17:53:41,205 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:53:41,224 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 5.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:53:41,226 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:53:41,226 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 5.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:53:50,706 [INFO] CustomerQuickAddView.cs: btnOk_Click
+2015-12-28 17:53:50,706 [INFO] CustomerPresenter.cs: InsertUpdateCustomer
+2015-12-28 17:53:56,299 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:53:56,375 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:53:56,377 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:53:56,378 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:53:58,692 [ERROR] AppLogger.cs: 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Views.SaleProductComponent.tbBarcodeName_KeyPress(Object sender, KeyPressEventArgs e) in d:\PROJECT\pos-system\PosSystem\Views\Component\SaleProduct\SaleProductComponent.cs:line 115
+2015-12-28 17:54:02,854 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:54:02,869 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:54:02,871 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:54:02,873 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:54:04,674 [DEBUG] HandleChooseProduct
+2015-12-28 17:54:07,394 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 17:54:11,847 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 17:54:11,957 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: The property 'Id' is part of the object's key information and cannot be modified. 
+   at System.Data.Entity.Core.Objects.EntityEntry.DetectChangesInProperty(Int32 ordinal, Boolean detectOnlyComplexProperties, Boolean detectOnly)
+   at System.Data.Entity.Core.Objects.EntityEntry.DetectChangesInProperties(Boolean detectOnlyComplexProperties)
+   at System.Data.Entity.Core.Objects.ObjectStateManager.DetectChangesInScalarAndComplexProperties(IList`1 entries)
+   at System.Data.Entity.Core.Objects.ObjectStateManager.DetectChanges()
+   at System.Data.Entity.Core.Objects.ObjectContext.DetectChanges()
+   at System.Data.Entity.Internal.InternalContext.DetectChanges(Boolean force)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at lhk.POS.Data.EfRepository`1.GetById(Object id) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 37
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 43
+2015-12-28 17:55:22,206 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 17:55:24,303 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 17:55:24,304 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 17:55:24,304 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 17:55:29,431 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:55:29,445 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 7.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:55:29,445 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 17:55:29,445 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 7.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 17:55:35,469 [INFO] CustomerQuickAddView.cs: btnOk_Click
+2015-12-28 17:55:35,470 [INFO] CustomerPresenter.cs: InsertUpdateCustomer
+2015-12-28 17:55:38,068 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:55:38,140 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:55:38,142 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:55:38,143 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:55:38,633 [DEBUG] HandleChooseProduct
+2015-12-28 17:55:39,933 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:55:39,945 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:55:39,946 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 17:55:39,947 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 17:55:41,086 [DEBUG] HandleChooseProduct
+2015-12-28 17:55:42,731 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 17:55:48,340 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 17:55:48,406 [ERROR] AppLogger.cs: 
+System.InvalidOperationException: The property 'Id' is part of the object's key information and cannot be modified. 
+   at System.Data.Entity.Core.Objects.EntityEntry.DetectChangesInProperty(Int32 ordinal, Boolean detectOnlyComplexProperties, Boolean detectOnly)
+   at System.Data.Entity.Core.Objects.EntityEntry.DetectChangesInProperties(Boolean detectOnlyComplexProperties)
+   at System.Data.Entity.Core.Objects.ObjectStateManager.DetectChangesInScalarAndComplexProperties(IList`1 entries)
+   at System.Data.Entity.Core.Objects.ObjectStateManager.DetectChanges()
+   at System.Data.Entity.Core.Objects.ObjectContext.DetectChanges()
+   at System.Data.Entity.Internal.InternalContext.DetectChanges(Boolean force)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Find(Object[] keyValues)
+   at System.Data.Entity.DbSet`1.Find(Object[] keyValues)
+   at lhk.POS.Data.EfRepository`1.GetById(Object id) in d:\PROJECT\pos-system\lhk.POS.Data\EfRepository.cs:line 37
+   at lhk.POS.Common.Business.GenericBuiness`1.Update(T entity, Boolean isCommit) in d:\PROJECT\pos-system\lhk.POS.Business\Business\GenericBuiness.cs:line 43
+2015-12-28 18:01:13,922 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 18:01:15,992 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 18:01:15,993 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 18:01:15,993 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 18:01:21,040 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:01:21,064 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 9.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:01:21,065 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:01:21,066 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 9.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:01:27,873 [INFO] CustomerQuickAddView.cs: btnOk_Click
+2015-12-28 18:01:27,874 [INFO] CustomerPresenter.cs: InsertUpdateCustomer
+2015-12-28 18:01:30,414 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:01:30,416 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 10.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:01:30,416 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:01:30,417 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 10.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:01:36,036 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:01:36,037 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 10.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:01:36,037 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:01:36,037 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 10.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:01:38,006 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:01:38,007 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 10.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:01:38,007 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:01:38,008 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 10.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:01:45,596 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:01:45,652 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:01:45,654 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:01:45,655 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:01:46,065 [DEBUG] HandleChooseProduct
+2015-12-28 18:01:46,939 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:01:46,954 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:01:46,956 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:01:46,957 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:01:47,114 [DEBUG] HandleChooseProduct
+2015-12-28 18:01:48,966 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 18:01:52,462 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 18:02:45,669 [INFO] LoginPresenter.cs: Begin validating user.
+2015-12-28 18:02:47,849 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-12-28 18:02:47,851 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-12-28 18:02:47,851 [INFO] LoginPresenter.cs: Finish validating user: nhanvien
+2015-12-28 18:02:51,783 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:02:51,801 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 11.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:02:51,802 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:02:51,802 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 11.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:02:57,300 [INFO] CustomerQuickAddView.cs: btnOk_Click
+2015-12-28 18:02:57,300 [INFO] CustomerPresenter.cs: InsertUpdateCustomer
+2015-12-28 18:02:57,510 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:02:57,512 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:02:57,512 [INFO]  ENTER HandleSearchCustomer: CustomerFinderPresenter
+2015-12-28 18:02:57,513 [INFO] Getting all entities of lhk.POS.Core.Domain.Customer - Found: 12.: lhk.POS.Common.Business.CustomerBusiness
+2015-12-28 18:03:03,658 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:03:03,730 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:03:03,732 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:03:03,733 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:03:04,303 [DEBUG] HandleChooseProduct
+2015-12-28 18:03:05,200 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:03:05,211 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:03:05,219 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:03:05,220 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:03:05,621 [DEBUG] HandleChooseProduct
+2015-12-28 18:03:06,467 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:03:06,480 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:03:06,482 [INFO]  ENTER HandleSearchProduct: ProductFinderPresenter
+2015-12-28 18:03:06,483 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 408.: lhk.POS.Common.Business.ProductBusiness
+2015-12-28 18:03:06,757 [DEBUG] HandleChooseProduct
+2015-12-28 18:03:07,793 [INFO] m_btnPayout_Click: lhk.POS.Presentation.Views.SaleView, Text: Bán hàng
+2015-12-28 18:03:12,276 [INFO] HandlePayOut: lhk.POS.Presentation.Presenters.SalePresenter
+2015-12-28 18:03:12,331 [ERROR] SalePresenter.cs: lhk.POS.Presentation.Presenters.SalePresenter
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at lhk.POS.Presentation.Presenters.SalePresenter.HandlePayOut(Order order) in d:\PROJECT\pos-system\PosSystem\Presenters\SalePresenter.cs:line 85

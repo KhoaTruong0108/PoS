@@ -1,0 +1,10 @@
+D:\PROJECT\release\pos-release\Staff\create_sample_data.sql
+D:\PROJECT\release\pos-release\Staff\Models\Sale\OrderInvoice.rdlc
+D:\PROJECT\release\pos-release\Staff\lhk.Pos.Sale.exe.config
+D:\PROJECT\release\pos-release\Staff\lhk.Pos.Sale.exe
+D:\PROJECT\release\pos-release\Staff\lhk.Pos.Sale.pdb
+D:\PROJECT\pos-system\lhk.Pos\obj\Release\lhk.Pos.Sale.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\lhk.Pos\obj\Release\lhk.Pos.Properties.Resources.resources
+D:\PROJECT\pos-system\lhk.Pos\obj\Release\lhk.Pos.Sale.csproj.GenerateResource.Cache
+D:\PROJECT\pos-system\lhk.Pos\obj\Release\lhk.Pos.Sale.exe
+D:\PROJECT\pos-system\lhk.Pos\obj\Release\lhk.Pos.Sale.pdb

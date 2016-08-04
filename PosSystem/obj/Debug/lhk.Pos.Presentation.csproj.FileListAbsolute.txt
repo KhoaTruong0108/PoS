@@ -1,0 +1,85 @@
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\create_sample_data.sql
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\Models\Sale\OrderInvoice.rdlc
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\POS.Presentation.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\POS.Presentation.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\Autofac.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\EntityFramework.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Common.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Data.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\log4net.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\PasswordUtility.Core.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\SpreadsheetGear.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Common.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Core.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Data.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\Autofac.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\EntityFramework.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.Pos.Presentation.csprojResolveAssemblyReference.cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.SaleProductComponent.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.CustomerFinderView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.CustomerQuickAddView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.GenericView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\PosSystem.Properties.Resources.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.LoginView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.Main.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ProductQuickAddView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ProductPriceView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ProductView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ProductFinderView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.PaymentDetailView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.SaleView.resources
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\lhk.Pos.Presentation.csproj.GenerateResource.Cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\RdlCompile.cache
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\RdlCompile.compiled
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\POS.Presentation.dll
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\POS.Presentation.pdb
+D:\Khoa\Backup DATA\PROJECT\pos-system\PosSystem\obj\Debug\PosSystem.Views.Component.InputProduct.FastInputProducts.resources
+D:\PROJECT\pos-system\PosSystem\bin\Debug\create_sample_data.sql
+D:\PROJECT\pos-system\PosSystem\bin\Debug\Models\Sale\OrderInvoice.rdlc
+D:\PROJECT\pos-system\PosSystem\bin\Debug\POS.Presentation.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\POS.Presentation.pdb
+D:\PROJECT\pos-system\PosSystem\bin\Debug\Autofac.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\EntityFramework.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Common.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Core.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Data.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\log4net.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\PasswordUtility.Core.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\SpreadsheetGear.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\ExistingDatabaseConverter.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\AutoMapper.dll
+D:\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Common.pdb
+D:\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Core.pdb
+D:\PROJECT\pos-system\PosSystem\bin\Debug\lhk.POS.Data.pdb
+D:\PROJECT\pos-system\PosSystem\bin\Debug\Autofac.xml
+D:\PROJECT\pos-system\PosSystem\bin\Debug\EntityFramework.xml
+D:\PROJECT\pos-system\PosSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\PROJECT\pos-system\PosSystem\bin\Debug\ExistingDatabaseConverter.pdb
+D:\PROJECT\pos-system\PosSystem\bin\Debug\AutoMapper.xml
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.Pos.Presentation.csprojResolveAssemblyReference.cache
+D:\PROJECT\pos-system\PosSystem\obj\Debug\PosSystem.Views.Component.InputProduct.FastInputProducts.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.SaleProductComponent.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.CustomerFinderView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.CustomerQuickAddView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.CustomerView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.GenericView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\PosSystem.Properties.Resources.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ImportProductView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.LoginView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.Main.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ProductQuickAddView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ProductPriceView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ProductView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ProductFinderView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.ReportView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.PaymentDetailView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.POS.Presentation.Views.SaleView.resources
+D:\PROJECT\pos-system\PosSystem\obj\Debug\lhk.Pos.Presentation.csproj.GenerateResource.Cache
+D:\PROJECT\pos-system\PosSystem\obj\Debug\RdlCompile.cache
+D:\PROJECT\pos-system\PosSystem\obj\Debug\RdlCompile.compiled
+D:\PROJECT\pos-system\PosSystem\obj\Debug\POS.Presentation.dll
+D:\PROJECT\pos-system\PosSystem\obj\Debug\POS.Presentation.pdb

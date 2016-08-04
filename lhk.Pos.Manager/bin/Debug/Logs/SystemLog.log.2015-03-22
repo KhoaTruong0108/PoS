@@ -1,0 +1,148 @@
+2015-03-22 12:12:02,360 [INFO] LoginPresenter.cs: Begin validating user.
+2015-03-22 12:12:06,388 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-03-22 12:12:06,389 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-03-22 12:12:06,389 [INFO] LoginPresenter.cs: Finish validating user: thanhhuong
+2015-03-22 12:12:06,503 [INFO] :: Main_Manager_Load: Main
+2015-03-22 12:12:09,030 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 12:12:09,062 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 12:12:09,319 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-03-22 12:12:16,917 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-03-22 12:12:17,087 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 15:54:30,030 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 15:54:30,050 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 15:54:35,435 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 15:55:01,581 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 15:55:01,600 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 15:55:03,574 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 15:57:59,839 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 15:57:59,858 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 15:58:17,950 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 15:58:19,231 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:00:37,142 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:00:37,160 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:00:42,039 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:00:43,073 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:01:02,744 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:01:02,773 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:01:05,354 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:01:07,290 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:01:28,407 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:01:28,434 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:01:30,538 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:01:37,965 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:02:55,946 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:02:55,973 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:03:44,235 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:03:44,264 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:04:20,454 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:04:20,482 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:04:49,452 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:05:02,714 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:05:17,076 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:05:17,094 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:05:22,808 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:05:23,616 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:06:41,865 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:06:41,884 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:07:00,959 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:07:00,978 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:07:14,347 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:07:21,416 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:07:29,309 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:07:40,341 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:08:37,944 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:08:37,964 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:08:39,575 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:08:40,890 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:08:41,958 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:08:48,573 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:08:52,206 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:08:56,632 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:08:59,295 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:09:19,000 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:09:19,021 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:09:21,854 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:09:28,766 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:10:23,843 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:10:23,861 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:10:31,496 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:10:32,237 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:10:33,690 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:11:40,217 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:11:40,236 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:11:43,011 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:11:44,232 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:12:56,067 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:12:56,095 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:13:05,185 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:13:19,795 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:13:36,503 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:13:56,308 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:13:56,326 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:13:58,484 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:13:59,545 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:14:00,554 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:14:03,352 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:15:08,258 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:15:08,278 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:15:10,179 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:15:12,136 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:20:51,175 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:20:51,193 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:23:04,374 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:23:04,392 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:24:08,531 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:24:08,550 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:24:45,038 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:24:45,058 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:25:26,813 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:25:26,831 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:25:47,513 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:25:47,531 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:31:55,250 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:31:55,269 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:38:47,367 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:38:47,385 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:38:52,151 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 16:41:11,161 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:41:11,180 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:41:30,172 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:41:30,191 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:41:57,858 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:41:57,877 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:42:56,414 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:42:56,441 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:44:12,246 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:44:12,265 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:44:46,246 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:44:46,265 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 16:53:53,782 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 16:53:53,800 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 17:21:53,852 [INFO] LoginPresenter.cs: Begin validating user.
+2015-03-22 17:21:56,641 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-03-22 17:21:56,656 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-03-22 17:21:56,656 [INFO] LoginPresenter.cs: Finish validating user: thanhhuong
+2015-03-22 17:21:56,888 [INFO] :: Main_Manager_Load: Main
+2015-03-22 17:21:59,900 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 17:22:00,314 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 17:22:00,723 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-03-22 17:22:07,923 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-03-22 17:22:09,225 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 17:22:19,915 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-03-22 17:22:19,933 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 17:22:22,717 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-03-22 17:22:22,737 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 17:23:43,363 [INFO] LoginPresenter.cs: Begin validating user.
+2015-03-22 17:23:46,146 [INFO] Getting all entities of lhk.POS.Core.Domain.User - Found: 5.: lhk.POS.Common.Business.UserBusiness
+2015-03-22 17:23:46,160 [INFO] LoginPresenter.cs: User name & Password matched.
+2015-03-22 17:23:46,160 [INFO] LoginPresenter.cs: Finish validating user: thanhhuong
+2015-03-22 17:23:46,299 [INFO] :: Main_Manager_Load: Main
+2015-03-22 17:23:49,784 [INFO] Getting all entities of lhk.POS.Core.Domain.Unit - Found: 10.: lhk.POS.Common.Business.UnitBusiness
+2015-03-22 17:23:49,826 [INFO] Getting all entities of lhk.POS.Core.Domain.Manufacturer - Found: 0.: lhk.POS.Common.Business.ManufacturerBusiness
+2015-03-22 17:23:49,995 [INFO] Getting all entities of lhk.POS.Core.Domain.Category - Found: 40.: lhk.POS.Common.Business.CategoryBusiness
+2015-03-22 17:23:56,697 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-03-22 17:23:58,153 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 17:24:03,436 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-03-22 17:24:04,469 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
+2015-03-22 17:24:18,054 [INFO]  ENTER HandleSearchProduct: ProductPresenter
+2015-03-22 17:24:19,382 [INFO] Getting all entities of lhk.POS.Core.Domain.Product - Found: 1798.: lhk.POS.Common.Business.ProductBusiness
